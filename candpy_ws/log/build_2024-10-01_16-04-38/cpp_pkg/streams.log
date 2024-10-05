@@ -1,0 +1,13 @@
+[0.018s] Invoking command in '/home/nagisa/candpy_ws/build/cpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nagisa/candpy_ws/build/cpp_pkg -- -j12 -l12
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target node_template_node[0m
+[0.079s] [ 33%] Built target qq_node
+[0.079s] [ 66%] Built target tx_qq_node
+[0.081s] [ 83%] [32mBuilding CXX object CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o[0m
+[2.066s] [01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.066s] [01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:66:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kloop_rate[m[K’ was not declared in this scope
+[2.066s]    66 |         [01;31m[Kloop_rate[m[K.sleep(); // 按照设定的频率休眠
+[2.066s]       |         [01;31m[K^~~~~~~~~[m[K
+[4.166s] gmake[2]: *** [CMakeFiles/node_template_node.dir/build.make:76：CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o] 错误 1
+[4.166s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/node_template_node.dir/all] 错误 2
+[4.166s] gmake: *** [Makefile:146：all] 错误 2
+[4.169s] Invoked command in '/home/nagisa/candpy_ws/build/cpp_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nagisa/candpy_ws/build/cpp_pkg -- -j12 -l12

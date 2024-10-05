@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target node_template_node[0m
+[ 66%] Built target qq_node
+[ 66%] Built target tx_qq_node
+[ 83%] [32mBuilding CXX object CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable node_template_node[0m
+[100%] Built target node_template_node
+-- Install configuration: ""
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/package.dsv
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/package.xml
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/qq_node
+-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/tx_qq_node
+-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/node_template_node
+-- Set runtime path of "/home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/node_template_node" to ""

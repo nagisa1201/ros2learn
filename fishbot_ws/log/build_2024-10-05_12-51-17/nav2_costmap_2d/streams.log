@@ -1,0 +1,102 @@
+[0.029s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_costmap_2d -- -j12 -l12
+[0.118s] [  2%] Built target gtest_main
+[0.119s] [  4%] Built target gtest
+[0.155s] [ 21%] Built target nav2_costmap_2d_core
+[0.208s] [ 29%] Built target costmap_filter_test
+[0.208s] [ 29%] Built target filters
+[0.209s] [ 31%] Built target array_parser_test
+[0.209s] [ 34%] Built target copy_window_test
+[0.210s] [ 36%] Built target costmap_convesion_test
+[0.215s] [ 39%] Built target declare_parameter_test
+[0.215s] [ 41%] Built target costmap_filter_service_test
+[0.216s] [ 43%] Built target collision_footprint_test
+[0.219s] [ 48%] Built target nav2_costmap_2d_client
+[0.220s] [ 51%] Built target nav2_costmap_2d_cloud
+[0.220s] [ 53%] Built target nav2_costmap_2d_markers
+[0.225s] [ 63%] Built target layers
+[0.252s] [ 65%] Built target costmap_bresenham_2d
+[0.257s] [ 68%] Built target binary_filter_test
+[0.257s] [ 70%] Built target dyn_params_tests
+[0.257s] [ 73%] Built target plugin_api_order
+[0.262s] [ 75%] Built target keepout_filter_test
+[0.267s] [ 78%] Built target order_layer
+[0.271s] [ 80%] Built target speed_filter_test
+[0.275s] [ 82%] Built target test_collision_checker_exec
+[0.277s] [ 87%] Built target footprint_tests_exec
+[0.277s] [ 87%] Built target inflation_tests_exec
+[0.278s] [ 90%] Built target nav2_costmap_2d
+[0.290s] [ 95%] Built target denoise_layer_test
+[0.300s] [ 97%] Built target obstacle_tests_exec
+[0.307s] [100%] Built target range_tests_exec
+[0.321s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_costmap_2d -- -j12 -l12
+[0.605s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_costmap_2d
+[0.614s] -- Install configuration: "Release"
+[0.615s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liblayers.so
+[0.616s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libfilters.so
+[0.617s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[0.618s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[0.620s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[0.622s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[0.623s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[0.625s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.625s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d
+[0.625s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d
+[0.625s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[0.625s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise
+[0.626s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[0.626s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[0.626s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[0.626s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[0.627s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[0.628s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[0.629s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[0.630s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[0.631s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[0.632s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[0.632s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[0.632s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[0.632s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[0.632s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[0.632s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[0.635s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[0.639s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+[0.641s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_costmap_2d

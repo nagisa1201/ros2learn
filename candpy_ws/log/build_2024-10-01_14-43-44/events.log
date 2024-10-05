@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000216] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.000906] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.006948] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.013194] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.013734] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/nagisa/candpy_ws/src/cpp_pkg', '-DCMAKE_INSTALL_PREFIX=/home/nagisa/candpy_ws/install/cpp_pkg'], 'cwd': '/home/nagisa/candpy_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nagisa'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nagisa'), ('OLDPWD', '/home/nagisa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('SYSTEMD_EXEC_PID', '1402'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nagisa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nagisa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nagisa-virtual-machine:@/tmp/.ICE-unix/1359,unix/nagisa-virtual-machine:/tmp/.ICE-unix/1359'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/02052f3b_3905_44cb_9ad6_d36ec1f0225d'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.56TJU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nagisa/candpy_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.099731] (-) TimerEvent: {}
+[0.179212] (cpp_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199924] (-) TimerEvent: {}
+[0.300262] (-) TimerEvent: {}
+[0.337277] (cpp_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.348475] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400373] (-) TimerEvent: {}
+[0.436571] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.442659] (cpp_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.444139] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.445160] (cpp_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.448507] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500484] (-) TimerEvent: {}
+[0.563109] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/nagisa/candpy_ws/build/py_pkg/build', 'install', '--record', '/home/nagisa/candpy_ws/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nagisa/candpy_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'nagisa', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nagisa', 'OLDPWD': '/home/nagisa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'SYSTEMD_EXEC_PID': '1402', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nagisa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nagisa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagisa-virtual-machine:@/tmp/.ICE-unix/1359,unix/nagisa-virtual-machine:/tmp/.ICE-unix/1359', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/02052f3b_3905_44cb_9ad6_d36ec1f0225d', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.56TJU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nagisa/candpy_ws/build/py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nagisa/candpy_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.564076] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.569170] (cpp_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.569460] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.569959] (cpp_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.576504] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.600588] (-) TimerEvent: {}
+[0.700905] (-) TimerEvent: {}
+[0.718658] (cpp_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.801028] (-) TimerEvent: {}
+[0.809024] (cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.831607] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.832235] (py_pkg) StdoutLine: {'line': b'creating ../../build/py_pkg/py_pkg.egg-info\n'}
+[0.832577] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[0.832656] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[0.832783] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[0.832899] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[0.833283] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[0.833518] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[0.835405] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[0.836058] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[0.836319] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.836504] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.836644] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/build/py_pkg/build\n'}
+[0.836892] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/build/py_pkg/build/lib\n'}
+[0.836946] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg\n'}
+[0.836992] (py_pkg) StdoutLine: {'line': b'copying py_pkg/__init__.py -> /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg\n'}
+[0.837037] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.837155] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.837820] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[0.838035] (py_pkg) StdoutLine: {'line': b'copying /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg\n'}
+[0.838547] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[0.838778] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.838925] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index\n'}
+[0.839039] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index\n'}
+[0.839317] (py_pkg) StdoutLine: {'line': b'creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[0.839571] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[0.839639] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/nagisa/candpy_ws/install/py_pkg/share/py_pkg\n'}
+[0.839689] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.841669] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.842527] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.847894] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.852655] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.860081] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.867550] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/nagisa/candpy_ws/build/py_pkg/install.log'\n"}
+[0.871897] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.885252] (py_pkg) CommandEnded: {'returncode': 0}
+[0.887427] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.901163] (-) TimerEvent: {}
+[0.904642] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[0.925163] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.927286] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.001324] (-) TimerEvent: {}
+[1.021647] (cpp_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.045820] (cpp_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.095176] (cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.101579] (-) TimerEvent: {}
+[1.103540] (cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201787] (-) TimerEvent: {}
+[1.235354] (cpp_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.235912] (cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301947] (-) TimerEvent: {}
+[1.325609] (cpp_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.327402] (cpp_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.377616] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.402067] (-) TimerEvent: {}
+[1.436608] (cpp_pkg) StderrLine: {'line': b"Error parsing '/home/nagisa/candpy_ws/src/cpp_pkg/package.xml':\n"}
+[1.502287] (-) TimerEvent: {}
+[1.505351] (cpp_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.505593] (cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string\n'}
+[1.505689] (cpp_pkg) StderrLine: {'line': b'    root = dom.parseString(data)\n'}
+[1.506136] (cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString\n'}
+[1.506299] (cpp_pkg) StderrLine: {'line': b'    return expatbuilder.parseString(string)\n'}
+[1.506745] (cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString\n'}
+[1.506839] (cpp_pkg) StderrLine: {'line': b'    return builder.parseString(string)\n'}
+[1.506917] (cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString\n'}
+[1.506995] (cpp_pkg) StderrLine: {'line': b'    parser.Parse(string, True)\n'}
+[1.507071] (cpp_pkg) StderrLine: {'line': b'xml.parsers.expat.ExpatError: not well-formed (invalid token): line 23, column 8\n'}
+[1.507145] (cpp_pkg) StderrLine: {'line': b'\n'}
+[1.507219] (cpp_pkg) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.507291] (cpp_pkg) StderrLine: {'line': b'\n'}
+[1.507362] (cpp_pkg) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.507465] (cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.507544] (cpp_pkg) StderrLine: {'line': b'    main()\n'}
+[1.507621] (cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.507697] (cpp_pkg) StderrLine: {'line': b'    raise e\n'}
+[1.507775] (cpp_pkg) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.507852] (cpp_pkg) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.507931] (cpp_pkg) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string\n'}
+[1.508006] (cpp_pkg) StderrLine: {'line': b"    raise InvalidPackage('The manifest contains invalid XML:\\n%s' % ex, filename)\n"}
+[1.508088] (cpp_pkg) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/nagisa/candpy_ws/src/cpp_pkg/package.xml':\n"}
+[1.508168] (cpp_pkg) StderrLine: {'line': b'The manifest contains invalid XML:\n'}
+[1.508248] (cpp_pkg) StderrLine: {'line': b'not well-formed (invalid token): line 23, column 8\n'}
+[1.522843] (cpp_pkg) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.523057] (cpp_pkg) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.523113] (cpp_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.523160] (cpp_pkg) StderrLine: {'line': b'  /home/nagisa/candpy_ws/src/cpp_pkg/package.xml\n'}
+[1.523206] (cpp_pkg) StderrLine: {'line': b'  /home/nagisa/candpy_ws/build/cpp_pkg/ament_cmake_core/package.cmake)\n'}
+[1.523250] (cpp_pkg) StderrLine: {'line': b'  returned error code 1\n'}
+[1.523294] (cpp_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.523337] (cpp_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.523407] (cpp_pkg) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.523469] (cpp_pkg) StderrLine: {'line': b'  CMakeLists.txt:28 (ament_lint_auto_find_test_dependencies)\n'}
+[1.523513] (cpp_pkg) StderrLine: {'line': b'\n'}
+[1.523563] (cpp_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[1.523607] (cpp_pkg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.523658] (cpp_pkg) StdoutLine: {'line': b'See also "/home/nagisa/candpy_ws/build/cpp_pkg/CMakeFiles/CMakeOutput.log".\n'}
+[1.533033] (cpp_pkg) CommandEnded: {'returncode': 1}
+[1.533996] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 1}
+[1.545237] (-) EventReactorShutdown: {}

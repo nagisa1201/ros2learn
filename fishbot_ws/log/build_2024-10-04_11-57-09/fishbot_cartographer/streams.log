@@ -1,0 +1,25 @@
+[0.024s] Invoking command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/fishbot_cartographer -- -j12 -l12
+[0.264s] Invoked command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/fishbot_cartographer -- -j12 -l12
+[0.320s] Invoking command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/fishbot_cartographer
+[0.329s] -- Install configuration: ""
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/ament_index/resource_index/package_run_dependencies/fishbot_cartographer
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/ament_index/resource_index/parent_prefix_path/fishbot_cartographer
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.sh
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/ament_prefix_path.dsv
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.sh
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/environment/path.dsv
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.bash
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.sh
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.zsh
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/local_setup.dsv
+[0.331s] -- Installing: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/ament_index/resource_index/packages/fishbot_cartographer
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig.cmake
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/cmake/fishbot_cartographerConfig-version.cmake
+[0.332s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.xml
+[0.333s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/config
+[0.333s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/config/fishbot_2d.lua
+[0.333s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/launch
+[0.333s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/launch/cartographer.launch.py
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/rviz
+[0.336s] Invoked command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/fishbot_cartographer

@@ -1,0 +1,72 @@
+[0.037s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_behaviors -- -j12 -l12
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target nav2_spin_behavior[0m
+[0.112s] [35m[1mConsolidate compiler generated dependencies of target nav2_wait_behavior[0m
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target nav2_drive_on_heading_behavior[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target nav2_back_up_behavior[0m
+[0.116s] [35m[1mConsolidate compiler generated dependencies of target nav2_assisted_teleop_behavior[0m
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target behavior_server_core[0m
+[0.132s] [ 10%] Built target gtest_main
+[0.135s] [ 20%] Built target gtest
+[0.140s] [ 30%] Built target nav2_wait_behavior
+[0.141s] [ 40%] Built target nav2_back_up_behavior
+[0.141s] [ 50%] Built target nav2_assisted_teleop_behavior
+[0.141s] [ 60%] Built target nav2_spin_behavior
+[0.145s] [ 70%] Built target nav2_drive_on_heading_behavior
+[0.146s] [ 80%] Built target behavior_server_core
+[0.157s] [35m[1mConsolidate compiler generated dependencies of target test_behaviors[0m
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target behavior_server[0m
+[0.181s] [ 90%] Built target test_behaviors
+[0.187s] [100%] Built target behavior_server
+[0.200s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_behaviors -- -j12 -l12
+[0.299s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_behaviors': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_behaviors
+[0.308s] -- Install configuration: "Release"
+[0.309s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[0.311s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libbehavior_server_core.so
+[0.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libnav2_spin_behavior.so
+[0.315s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libnav2_wait_behavior.so
+[0.318s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libnav2_assisted_teleop_behavior.so
+[0.319s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libnav2_drive_on_heading_behavior.so
+[0.321s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/libnav2_back_up_behavior.so
+[0.323s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/lib/nav2_behaviors/behavior_server
+[0.323s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include/
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/timed_behavior.hpp
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/behavior_server.hpp
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/assisted_teleop.hpp
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/back_up.hpp
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/drive_on_heading.hpp
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/spin.hpp
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/include//nav2_behaviors/plugins/wait.hpp
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/behavior_plugin.xml
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins/
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//assisted_teleop.cpp
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//wait.cpp
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//spin.cpp
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//drive_on_heading.cpp
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/plugins//back_up.cpp
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.sh
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/library_path.dsv
+[0.327s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/ament_index/resource_index/package_run_dependencies/nav2_behaviors
+[0.327s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/ament_index/resource_index/parent_prefix_path/nav2_behaviors
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.sh
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/ament_prefix_path.dsv
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.sh
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/environment/path.dsv
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.bash
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.sh
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.zsh
+[0.328s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/local_setup.dsv
+[0.328s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/package.dsv
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/ament_index/resource_index/packages/nav2_behaviors
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behaviors
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/ament_index/resource_index/rclcpp_components/nav2_behaviors
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_libraries-extras.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig.cmake
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/cmake/nav2_behaviorsConfig-version.cmake
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behaviors/share/nav2_behaviors/package.xml
+[0.333s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_behaviors' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_behavior_tree:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_behaviors

@@ -1,0 +1,44 @@
+[0.711s] Invoking command in '/home/nagisa/fishbot_ws/src/fishbot_description': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[0.923s] running egg_info
+[0.924s] creating ../../build/fishbot_description/fishbot_description.egg-info
+[0.924s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.924s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.924s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.924s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.924s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.925s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.926s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.926s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.926s] running build
+[0.927s] running build_py
+[0.927s] creating /home/nagisa/fishbot_ws/build/fishbot_description/build
+[0.927s] creating /home/nagisa/fishbot_ws/build/fishbot_description/build/lib
+[0.928s] creating /home/nagisa/fishbot_ws/build/fishbot_description/build/lib/fishbot_description
+[0.928s] copying fishbot_description/__init__.py -> /home/nagisa/fishbot_ws/build/fishbot_description/build/lib/fishbot_description
+[0.928s] copying fishbot_description/rotate_wheel.py -> /home/nagisa/fishbot_ws/build/fishbot_description/build/lib/fishbot_description
+[0.929s] running install
+[0.929s] running install_lib
+[0.929s] creating /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.929s] copying /home/nagisa/fishbot_ws/build/fishbot_description/build/lib/fishbot_description/__init__.py -> /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.929s] copying /home/nagisa/fishbot_ws/build/fishbot_description/build/lib/fishbot_description/rotate_wheel.py -> /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description
+[0.929s] byte-compiling /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/__init__.py to __init__.cpython-310.pyc
+[0.929s] byte-compiling /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description/rotate_wheel.py to rotate_wheel.cpython-310.pyc
+[0.930s] running install_data
+[0.930s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/ament_index
+[0.930s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/ament_index/resource_index
+[0.930s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[0.931s] copying resource/fishbot_description -> /home/nagisa/fishbot_ws/install/fishbot_description/share/ament_index/resource_index/packages
+[0.931s] copying package.xml -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description
+[0.931s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/launch
+[0.931s] copying launch/gazebo.launch.py -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/launch
+[0.931s] copying launch/display_rviz2.launch.py -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/launch
+[0.931s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.931s] copying urdf/fishbot_base.urdf -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/urdf
+[0.932s] creating /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/world
+[0.932s] copying world/fishbot.world -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/world
+[0.932s] running install_egg_info
+[0.934s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.935s] running install_scripts
+[0.953s] Installing rotate_wheel script to /home/nagisa/fishbot_ws/install/fishbot_description/lib/fishbot_description
+[0.953s] writing list of installed files to '/home/nagisa/fishbot_ws/build/fishbot_description/install.log'
+[0.972s] Invoked command in '/home/nagisa/fishbot_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data

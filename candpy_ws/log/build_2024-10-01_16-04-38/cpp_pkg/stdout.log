@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target node_template_node[0m
+[ 33%] Built target qq_node
+[ 66%] Built target tx_qq_node
+[ 83%] [32mBuilding CXX object CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o[0m

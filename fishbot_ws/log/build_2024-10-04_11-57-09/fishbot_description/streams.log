@@ -1,0 +1,22 @@
+[0.629s] Invoking command in '/home/nagisa/fishbot_ws/src/fishbot_description': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[0.860s] running egg_info
+[0.862s] writing ../../build/fishbot_description/fishbot_description.egg-info/PKG-INFO
+[0.862s] writing dependency_links to ../../build/fishbot_description/fishbot_description.egg-info/dependency_links.txt
+[0.862s] writing entry points to ../../build/fishbot_description/fishbot_description.egg-info/entry_points.txt
+[0.862s] writing requirements to ../../build/fishbot_description/fishbot_description.egg-info/requires.txt
+[0.862s] writing top-level names to ../../build/fishbot_description/fishbot_description.egg-info/top_level.txt
+[0.864s] reading manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.864s] writing manifest file '../../build/fishbot_description/fishbot_description.egg-info/SOURCES.txt'
+[0.865s] running build
+[0.865s] running build_py
+[0.865s] running install
+[0.865s] running install_lib
+[0.867s] running install_data
+[0.867s] copying launch/gazebo.launch.py -> /home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/launch
+[0.867s] running install_egg_info
+[0.870s] removing '/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.870s] Copying ../../build/fishbot_description/fishbot_description.egg-info to /home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages/fishbot_description-0.0.0-py3.10.egg-info
+[0.870s] running install_scripts
+[0.888s] Installing rotate_wheel script to /home/nagisa/fishbot_ws/install/fishbot_description/lib/fishbot_description
+[0.889s] writing list of installed files to '/home/nagisa/fishbot_ws/build/fishbot_description/install.log'
+[0.907s] Invoked command in '/home/nagisa/fishbot_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data

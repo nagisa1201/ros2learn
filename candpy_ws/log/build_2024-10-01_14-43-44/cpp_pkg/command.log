@@ -1,0 +1,2 @@
+Invoking command in '/home/nagisa/candpy_ws/build/cpp_pkg': /usr/bin/cmake /home/nagisa/candpy_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/nagisa/candpy_ws/install/cpp_pkg
+Invoked command in '/home/nagisa/candpy_ws/build/cpp_pkg' returned '1': /usr/bin/cmake /home/nagisa/candpy_ws/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/nagisa/candpy_ws/install/cpp_pkg

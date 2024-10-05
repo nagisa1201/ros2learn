@@ -1,0 +1,6 @@
+Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nagisa/fishbot_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/src/install/cartographer
+Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nagisa/fishbot_ws/src/cartographer -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/src/install/cartographer
+Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/src/build/cartographer -- -j12 -l12
+Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/src/build/cartographer -- -j12 -l12
+Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/src/build/cartographer
+Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/src/build/cartographer

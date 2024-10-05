@@ -1,0 +1,120 @@
+[0.072s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_smoother
+[0.219s] -- The C compiler identification is GNU 11.4.0
+[0.286s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.502s] -- Detecting CXX compiler ABI info - done
+[0.508s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.508s] -- Detecting CXX compile features
+[0.508s] -- Detecting CXX compile features - done
+[0.524s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.727s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.886s] -- Found nav2_core: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_core/share/nav2_core/cmake)
+[0.980s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.991s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.009s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.039s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.155s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.305s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.334s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.375s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.392s] -- Looking for pthread.h
+[1.480s] -- Looking for pthread.h - found
+[1.480s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.566s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.567s] -- Found Threads: TRUE  
+[2.125s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.125s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.343s] -- Found nav2_common: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[2.346s] -- Found nav_2d_utils: 1.1.16 (/home/nagisa/fishbot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[2.384s] -- Setting build type to Release as none was specified.
+[2.920s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.057s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.606s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.607s] -- Configured cppcheck include dirs: /home/nagisa/fishbot_ws/src/navigation2/nav2_smoother/include
+[3.607s] -- Configured cppcheck exclude dirs and/or files: 
+[3.609s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.610s] -- Configured cpplint exclude dirs and/or files: 
+[3.612s] -- Added test 'lint_cmake' to check CMake code style
+[3.615s] -- Added test 'uncrustify' to check C / C++ code style
+[3.615s] -- Configured uncrustify additional arguments: 
+[3.617s] -- Added test 'xmllint' to check XML markup files
+[3.626s] -- Configuring done
+[4.188s] -- Generating done
+[4.191s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/nav2_smoother
+[4.205s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_smoother
+[4.210s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_smoother -- -j12 -l12
+[4.277s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.277s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.278s] [ 16%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[4.278s] [ 22%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[4.280s] [ 27%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[5.053s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.100s] [ 33%] Built target gtest_main
+[9.080s] [ 38%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[9.340s] [ 44%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[9.370s] [ 44%] Built target savitzky_golay_smoother
+[9.715s] [ 44%] Built target simple_smoother
+[11.030s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[11.078s] [ 50%] Built target gtest
+[11.107s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[11.107s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o[0m
+[16.439s] [ 66%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[16.797s] [ 66%] Built target test_simple_smoother
+[16.902s] [ 72%] [32m[1mLinking CXX executable test_savitzky_golay_smoother[0m
+[17.271s] [ 72%] Built target test_savitzky_golay_smoother
+[18.094s] [ 77%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[18.496s] [ 77%] Built target smoother_server_core
+[18.525s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[18.525s] [ 88%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[23.114s] [ 94%] [32m[1mLinking CXX executable smoother_server[0m
+[23.458s] [ 94%] Built target smoother_server
+[26.895s] [100%] [32m[1mLinking CXX executable test_smoother_server[0m
+[27.304s] [100%] Built target test_smoother_server
+[27.318s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_smoother -- -j12 -l12
+[27.385s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_smoother
+[27.393s] -- Install configuration: "Release"
+[27.394s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/plugins.xml
+[27.394s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsmoother_server_core.so
+[27.396s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsmoother_server_core.so" to ""
+[27.396s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsimple_smoother.so
+[27.397s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsimple_smoother.so" to ""
+[27.397s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so
+[27.397s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so" to ""
+[27.397s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server
+[27.398s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server" to ""
+[27.398s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include/
+[27.398s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include//nav2_smoother
+[27.398s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include//nav2_smoother/savitzky_golay_smoother.hpp
+[27.398s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/include//nav2_smoother/smoother_utils.hpp
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.sh
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.dsv
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_smoother
+[27.399s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_smoother
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.sh
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.dsv
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/path.sh
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/environment/path.dsv
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.bash
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.sh
+[27.400s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.zsh
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.dsv
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/package.dsv
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/ament_index/resource_index/packages/nav2_smoother
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smoother
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/ament_index/resource_index/rclcpp_components/nav2_smoother
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig.cmake
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig-version.cmake
+[27.401s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_smoother/share/nav2_smoother/package.xml
+[27.403s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav_2d_utils:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav_2d_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav_2d_utils/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_smoother

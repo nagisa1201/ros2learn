@@ -1,0 +1,42 @@
+[0.017s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_velocity_smoother -- -j12 -l12
+[0.076s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother_core[0m
+[0.090s] [ 20%] Built target gtest_main
+[0.092s] [ 40%] Built target gtest
+[0.100s] [ 60%] Built target velocity_smoother_core
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother_tests[0m
+[0.118s] [35m[1mConsolidate compiler generated dependencies of target velocity_smoother[0m
+[0.139s] [100%] Built target velocity_smoother_tests
+[0.139s] [100%] Built target velocity_smoother
+[0.150s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_velocity_smoother -- -j12 -l12
+[0.198s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_velocity_smoother
+[0.207s] -- Install configuration: "Release"
+[0.207s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/lib/libvelocity_smoother_core.so
+[0.211s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_velocity_smoother/lib/libvelocity_smoother_core.so" to ""
+[0.211s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/lib/nav2_velocity_smoother/velocity_smoother
+[0.213s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_velocity_smoother/lib/nav2_velocity_smoother/velocity_smoother" to ""
+[0.213s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/include/
+[0.213s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/include//nav2_velocity_smoother
+[0.214s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/include//nav2_velocity_smoother/velocity_smoother.hpp
+[0.214s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.sh
+[0.214s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/library_path.dsv
+[0.214s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_velocity_smoother
+[0.215s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_velocity_smoother
+[0.215s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.sh
+[0.215s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/ament_prefix_path.dsv
+[0.216s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.sh
+[0.216s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/environment/path.dsv
+[0.216s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.bash
+[0.217s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.sh
+[0.217s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.zsh
+[0.218s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/local_setup.dsv
+[0.218s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.dsv
+[0.219s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/ament_index/resource_index/packages/nav2_velocity_smoother
+[0.219s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/ament_index/resource_index/rclcpp_components/nav2_velocity_smoother
+[0.219s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.220s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[0.220s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.221s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig.cmake
+[0.221s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/cmake/nav2_velocity_smootherConfig-version.cmake
+[0.222s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_velocity_smoother/share/nav2_velocity_smoother/package.xml
+[0.225s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_velocity_smoother' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_velocity_smoother

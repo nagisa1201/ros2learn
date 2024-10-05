@@ -1,0 +1,105 @@
+[0.081s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_navfn_planner
+[0.239s] -- The C compiler identification is GNU 11.4.0
+[0.321s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.424s] -- Detecting C compiler ABI info - done
+[0.430s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.437s] -- Detecting CXX compiler ABI info
+[0.537s] -- Detecting CXX compiler ABI info - done
+[0.546s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.546s] -- Detecting CXX compile features
+[0.547s] -- Detecting CXX compile features - done
+[0.570s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.787s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.947s] -- Found nav2_common: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[0.955s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.050s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.061s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.077s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.114s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.233s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.240s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.380s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.410s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.471s] -- Looking for pthread.h
+[1.565s] -- Looking for pthread.h - found
+[1.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.648s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.650s] -- Found Threads: TRUE  
+[1.744s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.808s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.851s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.937s] -- Found nav2_util: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake)
+[2.138s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.141s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.141s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.189s] -- Found nav2_core: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_core/share/nav2_core/cmake)
+[2.311s] -- Setting build type to Release as none was specified.
+[2.424s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.428s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.559s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.680s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.682s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.683s] -- Configured cppcheck include dirs: /home/nagisa/fishbot_ws/src/navigation2/nav2_navfn_planner/include
+[2.683s] -- Configured cppcheck exclude dirs and/or files: 
+[2.684s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.684s] -- Configured cpplint exclude dirs and/or files: 
+[2.686s] -- Added test 'lint_cmake' to check CMake code style
+[2.688s] -- Added test 'uncrustify' to check C / C++ code style
+[2.688s] -- Configured uncrustify additional arguments: 
+[2.689s] -- Added test 'xmllint' to check XML markup files
+[2.696s] -- Configuring done
+[2.894s] -- Generating done
+[2.898s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/nav2_navfn_planner
+[2.913s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_navfn_planner -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_navfn_planner
+[2.917s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_navfn_planner -- -j12 -l12
+[2.985s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.985s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[2.985s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn.cpp.o[0m
+[2.985s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_navfn_planner.dir/src/navfn_planner.cpp.o[0m
+[3.873s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.921s] [ 55%] Built target gtest_main
+[8.251s] [ 66%] [32m[1mLinking CXX shared library libnav2_navfn_planner.so[0m
+[8.577s] [ 66%] Built target nav2_navfn_planner
+[9.800s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[9.845s] [ 77%] Built target gtest
+[9.872s] [ 88%] [32mBuilding CXX object test/CMakeFiles/test_dynamic_parameters.dir/test_dynamic_parameters.cpp.o[0m
+[27.008s] [100%] [32m[1mLinking CXX executable test_dynamic_parameters[0m
+[28.261s] [100%] Built target test_dynamic_parameters
+[28.299s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_navfn_planner -- -j12 -l12
+[28.473s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_navfn_planner
+[28.504s] -- Install configuration: "Release"
+[28.504s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[28.505s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so
+[28.507s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_navfn_planner/lib/libnav2_navfn_planner.so" to ""
+[28.507s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/include/
+[28.508s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/include//nav2_navfn_planner
+[28.508s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn.hpp
+[28.509s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/include//nav2_navfn_planner/navfn_planner.hpp
+[28.509s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/global_planner_plugin.xml
+[28.510s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.sh
+[28.510s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/library_path.dsv
+[28.511s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/ament_index/resource_index/package_run_dependencies/nav2_navfn_planner
+[28.511s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/ament_index/resource_index/parent_prefix_path/nav2_navfn_planner
+[28.511s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.sh
+[28.512s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/ament_prefix_path.dsv
+[28.513s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.sh
+[28.514s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/environment/path.dsv
+[28.514s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.bash
+[28.515s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.sh
+[28.516s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.zsh
+[28.516s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/local_setup.dsv
+[28.517s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.dsv
+[28.518s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/ament_index/resource_index/packages/nav2_navfn_planner
+[28.518s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_navfn_planner
+[28.519s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[28.519s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[28.520s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[28.520s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig.cmake
+[28.521s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/cmake/nav2_navfn_plannerConfig-version.cmake
+[28.521s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_navfn_planner/share/nav2_navfn_planner/package.xml
+[28.534s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_navfn_planner' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_navfn_planner

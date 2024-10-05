@@ -1,0 +1,113 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nagisa/candpy_ws/build/cpp_pkg
+[35m[1mConsolidate compiler generated dependencies of target tx_qq_node[0m
+[35m[1mConsolidate compiler generated dependencies of target qq_node[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/qq_node.dir/src/qq_node.cpp.o[0m
+[ 66%] Built target tx_qq_node
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:61:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+   61 |     auto sub_node = std::make_shared<NodeWrapper<[01;31m[Kstd_msgs[m[K::msg::String>>("sub_node", "mygo", "mygo", false);
+      |                                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:61:71:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   61 |     auto sub_node = std::make_shared<NodeWrapper<std_msgs::msg::String[01;31m[K>>[m[K("sub_node", "mygo", "mygo", false);
+      |                                                                       [01;31m[K^~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:61:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   61 |     auto sub_node = std::[01;31m[Kmake_shared<NodeWrapper<std_msgs::msg::String>>("sub_node", "mygo", "mygo", false)[m[K;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:61:26:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<<expression error> >[m[K’
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:61:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:64:26:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   64 |     auto pub_node = std::[01;31m[Kmake_shared<NodeWrapper<std_msgs::msg::String>>("pub_node", "mygo", "mygo", true)[m[K;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:64:26:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kauto[m[K’ from ‘[01m[Kmake_shared<<expression error> >[m[K’
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:64:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[Kauto[m[K’
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:68:1:[m[K [01;31m[Kerror: [m[Ka template declaration cannot appear at block scope
+   68 | [01;31m[Ktemplate[m[K<typename MessageT>
+      | [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:122:1:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+  122 | [01;31m[K{[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:149:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ is not a class, namespace, or enumeration
+  149 |     [01;31m[Kstd_msgs[m[K::msg::String msg;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:150:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+  150 |     [01;31m[Kmsg[m[K.data = "我喜欢 mygo!!!!!";
+      |     [01;31m[K^~~[m[K
+[01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:150:5:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:45[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/nagisa/candpy_ws/src/cpp_pkg/src/node_template_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:27:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   27 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/node_template_node.dir/build.make:76：CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/node_template_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[ 83%] [32m[1mLinking CXX executable qq_node[0m
+[ 83%] Built target qq_node
+gmake: *** [Makefile:146：all] 错误 2

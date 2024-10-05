@@ -1,0 +1,478 @@
+[0.012s] Invoking command in '/home/nagisa/fishbot_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/dwb_msgs
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.155s] -- The CXX compiler identification is GNU 11.4.0
+[0.170s] -- Detecting C compiler ABI info
+[0.291s] -- Detecting C compiler ABI info - done
+[0.304s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.304s] -- Detecting C compile features
+[0.305s] -- Detecting C compile features - done
+[0.309s] -- Detecting CXX compiler ABI info
+[0.457s] -- Detecting CXX compiler ABI info - done
+[0.468s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.469s] -- Detecting CXX compile features
+[0.471s] -- Detecting CXX compile features - done
+[0.486s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.777s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.044s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.060s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.073s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.092s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.119s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.143s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.186s] -- Found nav_2d_msgs: 1.1.16 (/home/nagisa/fishbot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[1.207s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.234s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.675s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.450s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.453s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.486s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.486s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.486s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.486s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.513s] -- Found PythonExtra: .so  
+[2.598s] -- Configuring done
+[2.646s] -- Generating done
+[2.648s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/dwb_msgs
+[2.657s] Invoked command in '/home/nagisa/fishbot_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_dwb_controller/dwb_msgs -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/dwb_msgs
+[2.659s] Invoking command in '/home/nagisa/fishbot_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/dwb_msgs -- -j12 -l12
+[2.726s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.745s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.757s] [  2%] Built target ament_cmake_python_copy_dwb_msgs
+[3.059s] running egg_info
+[3.059s] creating dwb_msgs.egg-info
+[3.059s] writing dwb_msgs.egg-info/PKG-INFO
+[3.059s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[3.059s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[3.060s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[3.060s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[3.060s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[3.086s] [  2%] Built target ament_cmake_python_build_dwb_msgs_egg
+[3.627s] [  2%] Built target dwb_msgs__cpp
+[3.646s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.664s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.687s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.772s] [  6%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory_score__functions.c.o[0m
+[3.777s] [  7%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/trajectory2_d__functions.c.o[0m
+[3.779s] [  8%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/critic_score__functions.c.o[0m
+[3.786s] [  9%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/msg/detail/local_plan_evaluation__functions.c.o[0m
+[3.793s] [ 10%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_twists__functions.c.o[0m
+[3.793s] [ 11%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/generate_trajectory__functions.c.o[0m
+[3.793s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/get_critic_score__functions.c.o[0m
+[3.793s] [ 13%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/score_trajectory__functions.c.o[0m
+[3.796s] [ 14%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_c.dir/rosidl_generator_c/dwb_msgs/srv/detail/debug_local_plan__functions.c.o[0m
+[3.991s] [ 15%] [32m[1mLinking C shared library libdwb_msgs__rosidl_generator_c.so[0m
+[4.125s] [ 15%] Built target dwb_msgs__rosidl_generator_c
+[4.161s] [ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.161s] [ 17%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.163s] [ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.538s] [ 20%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[4.540s] [ 21%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[4.546s] [ 22%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[4.553s] [ 23%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[4.560s] [ 24%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[4.570s] [ 25%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[4.574s] [ 26%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[5.079s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[5.267s] [ 28%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[5.399s] [ 29%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/critic_score__type_support.cpp.o[0m
+[5.399s] [ 30%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp.o[0m
+[5.405s] [ 31%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp.o[0m
+[5.427s] [ 32%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp.o[0m
+[5.427s] [ 33%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp.o[0m
+[5.433s] [ 34%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/msg/detail/trajectory_score__type_support.cpp.o[0m
+[5.882s] [ 35%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/local_plan_evaluation__type_support.cpp.o[0m
+[5.897s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/critic_score__type_support.cpp.o[0m
+[6.101s] [ 37%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/generate_twists__type_support.cpp.o[0m
+[6.153s] [ 38%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_cpp.so[0m
+[6.200s] [ 40%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/critic_score__type_support.cpp.o[0m
+[6.313s] [ 41%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/local_plan_evaluation__type_support.cpp.o[0m
+[6.397s] [ 41%] Built target dwb_msgs__rosidl_typesupport_cpp
+[6.417s] [ 42%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/get_critic_score__type_support.cpp.o[0m
+[6.422s] [ 43%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/critic_score__type_support_c.cpp.o[0m
+[6.430s] [ 44%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory2_d__type_support.cpp.o[0m
+[6.463s] [ 45%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory2_d__type_support.cpp.o[0m
+[6.603s] [ 46%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/msg/trajectory_score__type_support.cpp.o[0m
+[6.636s] [ 47%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/critic_score__type_support.c.o[0m
+[6.692s] [ 48%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/debug_local_plan__type_support.cpp.o[0m
+[6.754s] [ 49%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c.o[0m
+[6.779s] [ 50%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/msg/detail/dds_fastrtps/trajectory_score__type_support.cpp.o[0m
+[6.825s] [ 51%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory2_d__type_support.c.o[0m
+[6.832s] [ 52%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_trajectory__type_support.cpp.o[0m
+[6.871s] [ 53%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/local_plan_evaluation__type_support_c.cpp.o[0m
+[6.908s] [ 54%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/msg/detail/trajectory_score__type_support.c.o[0m
+[6.924s] [ 55%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/generate_twists__type_support.cpp.o[0m
+[6.931s] [ 56%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/debug_local_plan__type_support.cpp.o[0m
+[7.016s] [ 57%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/debug_local_plan__type_support.c.o[0m
+[7.035s] [ 58%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/get_critic_score__type_support.cpp.o[0m
+[7.068s] [ 60%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/dwb_msgs/srv/detail/score_trajectory__type_support.cpp.o[0m
+[7.122s] [ 61%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_trajectory__type_support.c.o[0m
+[7.123s] [ 62%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/dwb_msgs/srv/score_trajectory__type_support.cpp.o[0m
+[7.207s] [ 63%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_c.so[0m
+[7.241s] [ 65%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory2_d__type_support_c.cpp.o[0m
+[7.241s] [ 65%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/generate_twists__type_support.c.o[0m
+[7.326s] [ 66%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/get_critic_score__type_support.c.o[0m
+[7.395s] [ 67%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/msg/detail/trajectory_score__type_support_c.cpp.o[0m
+[7.423s] [ 68%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/dwb_msgs/srv/detail/score_trajectory__type_support.c.o[0m
+[7.549s] [ 68%] Built target dwb_msgs__rosidl_typesupport_c
+[7.597s] [ 69%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/debug_local_plan__type_support_c.cpp.o[0m
+[7.597s] [ 70%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_trajectory__type_support.cpp.o[0m
+[7.675s] [ 71%] [32m[1mLinking C shared library libdwb_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.810s] [ 71%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[7.823s] [ 72%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/generate_twists__type_support.cpp.o[0m
+[7.835s] [ 73%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_trajectory__type_support_c.cpp.o[0m
+[8.135s] [ 74%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/generate_twists__type_support_c.cpp.o[0m
+[8.339s] [ 75%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/get_critic_score__type_support.cpp.o[0m
+[8.394s] [ 76%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/get_critic_score__type_support_c.cpp.o[0m
+[8.440s] [ 77%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/dwb_msgs/srv/detail/dds_fastrtps/score_trajectory__type_support.cpp.o[0m
+[8.517s] [ 78%] [32mBuilding CXX object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/dwb_msgs/srv/detail/score_trajectory__type_support_c.cpp.o[0m
+[8.592s] [ 80%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.999s] [ 80%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[9.268s] [ 81%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[9.439s] [ 82%] [32m[1mLinking CXX shared library libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.515s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[9.655s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[9.720s] [ 82%] Built target dwb_msgs
+[9.802s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[12.044s] [ 83%] Built target dwb_msgs__py
+[12.124s] [ 84%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_critic_score_s.c.o[0m
+[12.135s] [ 85%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory2_d_s.c.o[0m
+[12.135s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_get_critic_score_s.c.o[0m
+[12.135s] [ 87%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_local_plan_evaluation_s.c.o[0m
+[12.137s] [ 88%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/msg/_trajectory_score_s.c.o[0m
+[12.143s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_score_trajectory_s.c.o[0m
+[12.146s] [ 90%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_debug_local_plan_s.c.o[0m
+[12.147s] [ 92%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_trajectory_s.c.o[0m
+[12.147s] [ 91%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_generator_py.dir/rosidl_generator_py/dwb_msgs/srv/_generate_twists_s.c.o[0m
+[12.474s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/libdwb_msgs__rosidl_generator_py.so[0m
+[12.616s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[12.660s] [ 94%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.696s] [ 95%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.705s] [ 96%] [32mBuilding C object CMakeFiles/dwb_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.925s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.025s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.036s] [ 98%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[13.055s] [100%] [32m[1mLinking C shared library rosidl_generator_py/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[13.116s] [100%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[13.191s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[13.240s] Invoked command in '/home/nagisa/fishbot_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/dwb_msgs -- -j12 -l12
+[14.255s] Invoking command in '/home/nagisa/fishbot_ws/build/dwb_msgs': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/dwb_msgs
+[14.278s] -- Install configuration: ""
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.279s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[14.280s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[14.280s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[14.280s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[14.280s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[14.280s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[14.283s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[14.283s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[14.284s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[14.285s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[14.286s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[14.289s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[14.289s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[14.290s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[14.290s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[14.290s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.290s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.290s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[14.291s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.291s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.291s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[14.292s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.292s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.292s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[14.292s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[14.292s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[14.293s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[14.296s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[14.296s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[14.297s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[14.298s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[14.298s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[14.301s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[14.301s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.302s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[14.302s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[14.302s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.302s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[14.302s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[14.303s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[14.303s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[14.303s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[14.303s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[14.304s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[14.305s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.305s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.305s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.305s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[14.305s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[14.305s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[14.305s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[14.305s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[14.306s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.306s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[14.306s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[14.307s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.307s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.307s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.307s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.307s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.307s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[14.307s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[14.307s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[14.312s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.312s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[14.312s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.312s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[14.313s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[14.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[14.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[14.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[14.313s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[14.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[14.313s] -- Up-to-date: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[14.314s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[14.314s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.16-py3.10.egg-info
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.16-py3.10.egg-info/dependency_links.txt
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.16-py3.10.egg-info/SOURCES.txt
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.16-py3.10.egg-info/top_level.txt
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs-1.1.16-py3.10.egg-info/PKG-INFO
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv
+[14.314s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory_s.c
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists_s.c
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score_s.c
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py
+[14.315s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score_s.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score_s.c
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.319s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/libdwb_msgs__rosidl_generator_py.so
+[14.320s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.320s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.320s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.378s] Listing '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs'...
+[14.378s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/__init__.py'...
+[14.378s] Listing '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg'...
+[14.378s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/__init__.py'...
+[14.378s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_critic_score.py'...
+[14.378s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[14.378s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/msg/_trajectory_score.py'...
+[14.379s] Listing '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/__init__.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_generate_twists.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_get_critic_score.py'...
+[14.379s] Compiling '/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/srv/_score_trajectory.py'...
+[14.386s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[14.387s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.387s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[14.388s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.390s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[14.390s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[14.390s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[14.392s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[14.392s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[14.393s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[14.394s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[14.394s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[14.395s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[14.395s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[14.395s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[14.396s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[14.397s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[14.397s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[14.398s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[14.398s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[14.399s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[14.399s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[14.399s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Request.msg
+[14.400s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan_Response.msg
+[14.401s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[14.401s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Request.msg
+[14.402s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory_Response.msg
+[14.402s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[14.403s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Request.msg
+[14.403s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists_Response.msg
+[14.404s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[14.404s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Request.msg
+[14.404s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore_Response.msg
+[14.405s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[14.405s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Request.msg
+[14.406s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory_Response.msg
+[14.407s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[14.407s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[14.408s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[14.408s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[14.409s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[14.409s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[14.410s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[14.410s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[14.411s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[14.413s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[14.414s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/package.dsv
+[14.414s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[14.415s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[14.416s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.416s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.416s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.416s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[14.417s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.417s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.417s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.417s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.418s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[14.418s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.418s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.419s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.419s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[14.419s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.419s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[14.420s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.420s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[14.420s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.420s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.421s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.421s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.421s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.421s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.422s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[14.422s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[14.422s] -- Installing: /home/nagisa/fishbot_ws/install/dwb_msgs/share/dwb_msgs/package.xml
+[14.435s] Invoked command in '/home/nagisa/fishbot_ws/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/dwb_msgs

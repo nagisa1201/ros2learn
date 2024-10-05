@@ -1,0 +1,41 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_lifecycle_manager_core[0m
+[ 15%] Built target gtest_main
+[ 30%] Built target gtest
+[ 53%] Built target nav2_lifecycle_manager_core
+[35m[1mConsolidate compiler generated dependencies of target test_lifecycle_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target test_bond_gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[ 69%] Built target lifecycle_manager
+[ 84%] Built target test_bond_gtest
+[100%] Built target test_lifecycle_gtest
+-- Install configuration: "Release"
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include/
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/rclcpp_components/nav2_lifecycle_manager
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml

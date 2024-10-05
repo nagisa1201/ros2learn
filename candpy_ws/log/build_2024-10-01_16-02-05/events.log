@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000556] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000634] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.000677] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.006062] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.012720] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.013402] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.014494] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nagisa/candpy_ws/build/cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/nagisa/candpy_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nagisa'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nagisa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nagisa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nagisa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nagisa-virtual-machine:@/tmp/.ICE-unix/1351,unix/nagisa-virtual-machine:/tmp/.ICE-unix/1351'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d56a7de2_fff0_4c29_9a9f_234e91806543'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FXSQU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nagisa/candpy_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.066970] (cpp_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target node_template_node\x1b[0m\n'}
+[0.084940] (cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target tx_qq_node\n'}
+[0.085123] (cpp_pkg) StdoutLine: {'line': b'[ 66%] Built target qq_node\n'}
+[0.085372] (cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/node_template_node.dir/src/node_template_node.cpp.o\x1b[0m\n'}
+[0.098460] (-) TimerEvent: {}
+[0.198789] (-) TimerEvent: {}
+[0.299127] (-) TimerEvent: {}
+[0.399475] (-) TimerEvent: {}
+[0.499818] (-) TimerEvent: {}
+[0.577306] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/nagisa/candpy_ws/build/py_pkg/build', 'install', '--record', '/home/nagisa/candpy_ws/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/nagisa/candpy_ws/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en', 'USER': 'nagisa', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/nagisa', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1351', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'nagisa', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'nagisa', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/nagisa-virtual-machine:@/tmp/.ICE-unix/1351,unix/nagisa-virtual-machine:/tmp/.ICE-unix/1351', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d56a7de2_fff0_4c29_9a9f_234e91806543', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.FXSQU2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.120', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/nagisa/candpy_ws/build/py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/nagisa/candpy_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.599991] (-) TimerEvent: {}
+[0.700352] (-) TimerEvent: {}
+[0.784927] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.785619] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[0.785919] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[0.786182] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[0.786869] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[0.786974] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[0.788302] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[0.789088] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[0.789375] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[0.789448] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.789499] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[0.789750] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.791133] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.791270] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.792805] (py_pkg) StdoutLine: {'line': b"removing '/home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.793027] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info\n'}
+[0.793853] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.800464] (-) TimerEvent: {}
+[0.813916] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/nagisa/candpy_ws/build/py_pkg/install.log'\n"}
+[0.835292] (py_pkg) CommandEnded: {'returncode': 0}
+[0.845942] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[0.900637] (-) TimerEvent: {}
+[1.001017] (-) TimerEvent: {}
+[1.101448] (-) TimerEvent: {}
+[1.201816] (-) TimerEvent: {}
+[1.302239] (-) TimerEvent: {}
+[1.402601] (-) TimerEvent: {}
+[1.502983] (-) TimerEvent: {}
+[1.603356] (-) TimerEvent: {}
+[1.703708] (-) TimerEvent: {}
+[1.804124] (-) TimerEvent: {}
+[1.904591] (-) TimerEvent: {}
+[2.005115] (-) TimerEvent: {}
+[2.105544] (-) TimerEvent: {}
+[2.205956] (-) TimerEvent: {}
+[2.306442] (-) TimerEvent: {}
+[2.406942] (-) TimerEvent: {}
+[2.507451] (-) TimerEvent: {}
+[2.607904] (-) TimerEvent: {}
+[2.708303] (-) TimerEvent: {}
+[2.808728] (-) TimerEvent: {}
+[2.909149] (-) TimerEvent: {}
+[3.009592] (-) TimerEvent: {}
+[3.109982] (-) TimerEvent: {}
+[3.210506] (-) TimerEvent: {}
+[3.310853] (-) TimerEvent: {}
+[3.411261] (-) TimerEvent: {}
+[3.511662] (-) TimerEvent: {}
+[3.611991] (-) TimerEvent: {}
+[3.712559] (-) TimerEvent: {}
+[3.813039] (-) TimerEvent: {}
+[3.913400] (-) TimerEvent: {}
+[4.013745] (-) TimerEvent: {}
+[4.114249] (-) TimerEvent: {}
+[4.214755] (-) TimerEvent: {}
+[4.315065] (-) TimerEvent: {}
+[4.415562] (-) TimerEvent: {}
+[4.516002] (-) TimerEvent: {}
+[4.616642] (-) TimerEvent: {}
+[4.717011] (-) TimerEvent: {}
+[4.817597] (-) TimerEvent: {}
+[4.917984] (-) TimerEvent: {}
+[5.018386] (-) TimerEvent: {}
+[5.118799] (-) TimerEvent: {}
+[5.219119] (-) TimerEvent: {}
+[5.319567] (-) TimerEvent: {}
+[5.419908] (-) TimerEvent: {}
+[5.520302] (-) TimerEvent: {}
+[5.620623] (-) TimerEvent: {}
+[5.720991] (-) TimerEvent: {}
+[5.821496] (-) TimerEvent: {}
+[5.921875] (-) TimerEvent: {}
+[6.022323] (-) TimerEvent: {}
+[6.122757] (-) TimerEvent: {}
+[6.223165] (-) TimerEvent: {}
+[6.323670] (-) TimerEvent: {}
+[6.424087] (-) TimerEvent: {}
+[6.524435] (-) TimerEvent: {}
+[6.624797] (-) TimerEvent: {}
+[6.725130] (-) TimerEvent: {}
+[6.825625] (-) TimerEvent: {}
+[6.926078] (-) TimerEvent: {}
+[7.026438] (-) TimerEvent: {}
+[7.126756] (-) TimerEvent: {}
+[7.227247] (-) TimerEvent: {}
+[7.327604] (-) TimerEvent: {}
+[7.427937] (-) TimerEvent: {}
+[7.528361] (-) TimerEvent: {}
+[7.628777] (-) TimerEvent: {}
+[7.717441] (cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable node_template_node\x1b[0m\n'}
+[7.728974] (-) TimerEvent: {}
+[7.829369] (-) TimerEvent: {}
+[7.929852] (-) TimerEvent: {}
+[8.030399] (-) TimerEvent: {}
+[8.126543] (cpp_pkg) StdoutLine: {'line': b'[100%] Built target node_template_node\n'}
+[8.130511] (-) TimerEvent: {}
+[8.138431] (cpp_pkg) CommandEnded: {'returncode': 0}
+[8.188052] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'install'}
+[8.198084] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nagisa/candpy_ws/build/cpp_pkg'], 'cwd': '/home/nagisa/candpy_ws/build/cpp_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'nagisa'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nagisa'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1351'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nagisa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nagisa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nagisa-virtual-machine:@/tmp/.ICE-unix/1351,unix/nagisa-virtual-machine:/tmp/.ICE-unix/1351'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/d56a7de2_fff0_4c29_9a9f_234e91806543'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.FXSQU2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nagisa/candpy_ws/build/cpp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=04888ca8fcefb069c9d0e61e66fbab4e'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.206063] (cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.206261] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg\n'}
+[8.206334] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg\n'}
+[8.206385] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.206433] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.206845] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/path.sh\n'}
+[8.206961] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/environment/path.dsv\n'}
+[8.207230] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.bash\n'}
+[8.207491] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.sh\n'}
+[8.207557] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.zsh\n'}
+[8.207606] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/local_setup.dsv\n'}
+[8.207761] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/package.dsv\n'}
+[8.208194] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg\n'}
+[8.208352] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake\n'}
+[8.208616] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake\n'}
+[8.208719] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/share/cpp_pkg/package.xml\n'}
+[8.210435] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/qq_node\n'}
+[8.213290] (cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/qq_node" to ""\n'}
+[8.215221] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/tx_qq_node\n'}
+[8.215496] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/node_template_node\n'}
+[8.219080] (cpp_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/nagisa/candpy_ws/install/cpp_pkg/lib/cpp_pkg/node_template_node" to ""\n'}
+[8.221050] (cpp_pkg) CommandEnded: {'returncode': 0}
+[8.230708] (-) TimerEvent: {}
+[8.285305] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 0}
+[8.286401] (-) EventReactorShutdown: {}

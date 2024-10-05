@@ -1,0 +1,45 @@
+[0.020s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager -- -j12 -l12
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target nav2_lifecycle_manager_core[0m
+[0.104s] [ 15%] Built target gtest_main
+[0.105s] [ 30%] Built target gtest
+[0.119s] [ 53%] Built target nav2_lifecycle_manager_core
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target test_lifecycle_gtest[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target test_bond_gtest[0m
+[0.137s] [35m[1mConsolidate compiler generated dependencies of target lifecycle_manager[0m
+[0.158s] [ 69%] Built target lifecycle_manager
+[0.159s] [ 84%] Built target test_bond_gtest
+[0.159s] [100%] Built target test_lifecycle_gtest
+[0.173s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager -- -j12 -l12
+[0.239s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager
+[0.250s] -- Install configuration: "Release"
+[0.250s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so
+[0.253s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/libnav2_lifecycle_manager_core.so" to ""
+[0.253s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager
+[0.254s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib/nav2_lifecycle_manager/lifecycle_manager" to ""
+[0.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include/
+[0.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager
+[0.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager_client.hpp
+[0.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/include//nav2_lifecycle_manager/lifecycle_manager.hpp
+[0.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.sh
+[0.255s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/library_path.dsv
+[0.256s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/package_run_dependencies/nav2_lifecycle_manager
+[0.256s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/parent_prefix_path/nav2_lifecycle_manager
+[0.256s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.sh
+[0.257s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/ament_prefix_path.dsv
+[0.257s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.sh
+[0.258s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/environment/path.dsv
+[0.258s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.bash
+[0.259s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.sh
+[0.259s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.zsh
+[0.260s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/local_setup.dsv
+[0.260s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.dsv
+[0.260s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/packages/nav2_lifecycle_manager
+[0.261s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/ament_index/resource_index/rclcpp_components/nav2_lifecycle_manager
+[0.261s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.261s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[0.262s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.263s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig.cmake
+[0.263s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake/nav2_lifecycle_managerConfig-version.cmake
+[0.263s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/package.xml
+[0.267s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager

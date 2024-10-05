@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target conversions[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target path_ops[0m
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 18%] Built target gtest_main
+[ 31%] Built target path_ops
+[ 43%] Built target conversions
+[ 50%] [32mBuilding CXX object CMakeFiles/tf_help.dir/src/tf_help.cpp.o[0m
+[ 56%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 56%] Built target gtest
+[ 62%] [32m[1mLinking CXX shared library libtf_help.so[0m
+[ 62%] Built target tf_help
+[ 68%] [32mBuilding CXX object test/CMakeFiles/path_ops_tests.dir/path_ops_test.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable path_ops_tests[0m
+[ 75%] Built target path_ops_tests
+[ 81%] [32mBuilding CXX object test/CMakeFiles/tf_help_tests.dir/tf_help_test.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable tf_help_tests[0m
+[ 87%] Built target tf_help_tests
+[ 93%] [32mBuilding CXX object test/CMakeFiles/2d_utils_tests.dir/2d_utils_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable 2d_utils_tests[0m
+[100%] Built target 2d_utils_tests

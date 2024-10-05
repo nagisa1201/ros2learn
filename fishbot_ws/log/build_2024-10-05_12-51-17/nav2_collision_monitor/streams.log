@@ -1,0 +1,59 @@
+[0.031s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_collision_monitor -- -j12 -l12
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.110s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_core[0m
+[0.114s] [  8%] Built target gtest_main
+[0.115s] [ 17%] Built target gtest
+[0.147s] [ 56%] Built target collision_monitor_core
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target kinematics_test[0m
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor_node_test[0m
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target polygons_test[0m
+[0.168s] [35m[1mConsolidate compiler generated dependencies of target sources_test[0m
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target collision_monitor[0m
+[0.189s] [ 65%] Built target kinematics_test
+[0.191s] [ 73%] Built target sources_test
+[0.191s] [ 82%] Built target polygons_test
+[0.192s] [ 91%] Built target collision_monitor_node_test
+[0.193s] [100%] Built target collision_monitor
+[0.206s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_collision_monitor -- -j12 -l12
+[0.313s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_collision_monitor
+[0.324s] -- Install configuration: "Release"
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include/
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[0.331s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params
+[0.332s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[0.332s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[0.333s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[0.334s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[0.334s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[0.334s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[0.335s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[0.335s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[0.336s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[0.339s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_collision_monitor

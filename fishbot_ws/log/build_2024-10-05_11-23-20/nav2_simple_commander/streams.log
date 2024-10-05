@@ -1,0 +1,88 @@
+[3.132s] Invoking command in '/home/nagisa/fishbot_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/nagisa/fishbot_ws/build/nav2_simple_commander/build install --record /home/nagisa/fishbot_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[3.838s] running egg_info
+[3.840s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[3.841s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[3.841s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[3.842s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[3.842s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[3.842s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[3.842s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.846s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.850s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[3.852s] running build
+[3.853s] running build_py
+[3.853s] creating /home/nagisa/fishbot_ws/build/nav2_simple_commander/build
+[3.854s] creating /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib
+[3.854s] creating /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.854s] copying nav2_simple_commander/demo_inspection.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.855s] copying nav2_simple_commander/__init__.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.855s] copying nav2_simple_commander/demo_security.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.857s] copying nav2_simple_commander/line_iterator.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.857s] copying nav2_simple_commander/example_follow_path.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.857s] copying nav2_simple_commander/demo_recoveries.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.858s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.858s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.858s] copying nav2_simple_commander/demo_picking.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.858s] copying nav2_simple_commander/robot_navigator.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.859s] copying nav2_simple_commander/costmap_2d.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.859s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.859s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[3.859s] running install
+[3.859s] running install_lib
+[3.861s] creating /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.861s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.862s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.863s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.863s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.864s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.864s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.864s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] copying /home/nagisa/fishbot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[3.865s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[3.866s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[3.867s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[3.880s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[3.880s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[3.880s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[3.880s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[3.880s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[3.881s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[3.881s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[3.894s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[3.895s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[3.895s] byte-compiling /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[3.895s] running install_data
+[3.895s] creating /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/ament_index
+[3.895s] creating /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[3.896s] creating /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[3.896s] copying resource/nav2_simple_commander -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[3.897s] copying package.xml -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/inspection_demo_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/waypoint_follower_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/nav_to_pose_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/recoveries_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/warehouse.world -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.897s] copying launch/follow_path_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.898s] copying launch/assisted_teleop_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.898s] copying launch/nav_through_poses_example_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.899s] copying launch/security_demo_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.899s] copying launch/picking_demo_launch.py -> /home/nagisa/fishbot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[3.899s] running install_egg_info
+[3.907s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[3.907s] running install_scripts
+[3.960s] Installing demo_inspection script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.960s] Installing demo_picking script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.960s] Installing demo_recoveries script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.961s] Installing demo_security script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.962s] Installing example_assisted_teleop script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.963s] Installing example_follow_path script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.963s] Installing example_nav_through_poses script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.963s] Installing example_nav_to_pose script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.963s] Installing example_waypoint_follower script to /home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[3.963s] writing list of installed files to '/home/nagisa/fishbot_ws/build/nav2_simple_commander/install.log'
+[4.019s] Invoked command in '/home/nagisa/fishbot_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/nagisa/fishbot_ws/build/nav2_simple_commander/build install --record /home/nagisa/fishbot_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

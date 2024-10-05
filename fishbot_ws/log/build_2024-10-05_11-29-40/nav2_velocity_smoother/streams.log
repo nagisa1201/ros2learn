@@ -1,0 +1,15 @@
+[0.045s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_velocity_smoother': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_velocity_smoother -- -j12 -l12
+[0.160s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.187s] [ 20%] Built target gtest_main
+[0.197s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[0.228s] [ 40%] [32mBuilding CXX object CMakeFiles/velocity_smoother_core.dir/src/velocity_smoother.cpp.o[0m
+[181.477s] [ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[181.546s] [ 50%] Built target gtest
+[346.036s] [ 60%] [32m[1mLinking CXX shared library libvelocity_smoother_core.so[0m
+[346.293s] [ 60%] Built target velocity_smoother_core
+[346.333s] [ 70%] [32mBuilding CXX object CMakeFiles/velocity_smoother.dir/src/main.cpp.o[0m
+[349.760s] [ 80%] [32m[1mLinking CXX executable velocity_smoother[0m
+[350.034s] [ 80%] Built target velocity_smoother
+[350.071s] [ 90%] [32mBuilding CXX object test/CMakeFiles/velocity_smoother_tests.dir/test_velocity_smoother.cpp.o[0m
+[371.770s] [100%] [32m[1mLinking CXX executable velocity_smoother_tests[0m
+[372.116s] [100%] Built target velocity_smoother_tests

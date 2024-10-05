@@ -1,0 +1,135 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  4%] Built target gtest
+[  4%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_core[0m
+[ 21%] Built target nav2_costmap_2d_core
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_cloud[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_filter_test[0m
+[35m[1mConsolidate compiler generated dependencies of target array_parser_test[0m
+[35m[1mConsolidate compiler generated dependencies of target copy_window_test[0m
+[35m[1mConsolidate compiler generated dependencies of target declare_parameter_test[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_convesion_test[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_markers[0m
+[35m[1mConsolidate compiler generated dependencies of target filters[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_filter_service_test[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d_client[0m
+[35m[1mConsolidate compiler generated dependencies of target collision_footprint_test[0m
+[35m[1mConsolidate compiler generated dependencies of target layers[0m
+[ 26%] Built target costmap_filter_test
+[ 26%] Built target copy_window_test
+[ 31%] Built target costmap_convesion_test
+[ 31%] Built target costmap_filter_service_test
+[ 34%] Built target nav2_costmap_2d_markers
+[ 36%] Built target nav2_costmap_2d_cloud
+[ 39%] Built target array_parser_test
+[ 46%] Built target nav2_costmap_2d_client
+[ 46%] Built target declare_parameter_test
+[ 51%] Built target filters
+[ 53%] Built target collision_footprint_test
+[35m[1mConsolidate compiler generated dependencies of target costmap_bresenham_2d[0m
+[35m[1mConsolidate compiler generated dependencies of target dyn_params_tests[0m
+[35m[1mConsolidate compiler generated dependencies of target order_layer[0m
+[35m[1mConsolidate compiler generated dependencies of target plugin_api_order[0m
+[35m[1mConsolidate compiler generated dependencies of target keepout_filter_test[0m
+[ 63%] Built target layers
+[35m[1mConsolidate compiler generated dependencies of target binary_filter_test[0m
+[35m[1mConsolidate compiler generated dependencies of target speed_filter_test[0m
+[ 65%] Built target costmap_bresenham_2d
+[ 68%] Built target order_layer
+[ 71%] Built target plugin_api_order
+[ 73%] Built target dyn_params_tests
+[35m[1mConsolidate compiler generated dependencies of target inflation_tests_exec[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_costmap_2d[0m
+[ 75%] Built target keepout_filter_test
+[35m[1mConsolidate compiler generated dependencies of target obstacle_tests_exec[0m
+[35m[1mConsolidate compiler generated dependencies of target test_collision_checker_exec[0m
+[35m[1mConsolidate compiler generated dependencies of target denoise_layer_test[0m
+[35m[1mConsolidate compiler generated dependencies of target footprint_tests_exec[0m
+[ 78%] Built target speed_filter_test
+[ 80%] Built target binary_filter_test
+[35m[1mConsolidate compiler generated dependencies of target range_tests_exec[0m
+[ 82%] Built target nav2_costmap_2d
+[ 85%] Built target test_collision_checker_exec
+[ 87%] Built target inflation_tests_exec
+[ 90%] Built target obstacle_tests_exec
+[ 92%] Built target footprint_tests_exec
+[ 97%] Built target denoise_layer_test
+[100%] Built target range_tests_exec
+-- Install configuration: "Release"
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liblayers.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liblayers.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libfilters.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libfilters.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/array_parser.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+-- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liborder_layer.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib/liborder_layer.so" to ""

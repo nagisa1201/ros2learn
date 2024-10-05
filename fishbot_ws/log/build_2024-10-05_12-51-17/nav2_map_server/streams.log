@@ -1,0 +1,55 @@
+[0.017s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_map_server -- -j12 -l12
+[0.096s] [  5%] Built target gtest_main
+[0.097s] [ 11%] Built target gtest
+[0.108s] [ 19%] Built target map_io
+[0.131s] [ 27%] Built target test_map_saver_cli
+[0.146s] [ 36%] Built target test_map_saver_publisher
+[0.146s] [ 44%] Built target test_map_io
+[0.154s] [ 55%] Built target map_server_core
+[0.194s] [ 61%] Built target test_costmap_filter_info_server
+[0.195s] [ 66%] Built target map_server
+[0.196s] [ 75%] Built target test_map_server_node
+[0.196s] [ 83%] Built target costmap_filter_info_server
+[0.197s] [ 86%] Built target map_saver_server
+[0.199s] [ 91%] Built target map_saver_cli
+[0.199s] [100%] Built target test_map_saver_node
+[0.211s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_map_server -- -j12 -l12
+[0.325s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_map_server': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_map_server
+[0.335s] -- Install configuration: "Release"
+[0.337s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_server_core.so
+[0.339s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_io.so
+[0.341s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+[0.343s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[0.345s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[0.346s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[0.347s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include/
+[0.347s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server
+[0.347s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[0.348s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[0.348s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[0.348s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[0.348s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[0.348s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch
+[0.349s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[0.350s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[0.350s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[0.350s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[0.351s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[0.351s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[0.351s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[0.351s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[0.352s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+[0.352s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[0.353s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.xml
+[0.358s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_map_server

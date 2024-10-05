@@ -1,0 +1,70 @@
+[0.230s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_lifecycle_manager -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager
+[0.632s] -- The C compiler identification is GNU 11.4.0
+[0.816s] -- The CXX compiler identification is GNU 11.4.0
+[0.854s] -- Detecting C compiler ABI info
+[1.094s] -- Detecting C compiler ABI info - done
+[1.114s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.114s] -- Detecting C compile features
+[1.116s] -- Detecting C compile features - done
+[1.124s] -- Detecting CXX compiler ABI info
+[1.400s] -- Detecting CXX compiler ABI info - done
+[1.421s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.422s] -- Detecting CXX compile features
+[1.422s] -- Detecting CXX compile features - done
+[1.429s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.251s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.459s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.485s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.532s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.621s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.711s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.900s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[2.948s] -- Found nav2_common: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[2.952s] -- Found nav2_msgs: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[3.216s] -- Found nav2_util: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake)
+[3.511s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.521s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.856s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.938s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.059s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.081s] -- Looking for pthread.h
+[4.342s] -- Looking for pthread.h - found
+[4.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.604s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.605s] -- Found Threads: TRUE  
+[4.870s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.870s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.871s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.017s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[5.061s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[5.189s] -- Setting build type to Release as none was specified.
+[5.347s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.617s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.783s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.793s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.794s] -- Configured cppcheck include dirs: /home/nagisa/fishbot_ws/src/navigation2/nav2_lifecycle_manager/include
+[5.795s] -- Configured cppcheck exclude dirs and/or files: 
+[5.797s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.798s] -- Configured cpplint exclude dirs and/or files: 
+[5.799s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.802s] -- Added test 'lint_cmake' to check CMake code style
+[5.802s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.804s] -- Added test 'uncrustify' to check C / C++ code style
+[5.804s] -- Configured uncrustify additional arguments: 
+[5.807s] -- Added test 'xmllint' to check XML markup files
+[5.814s] -- Configuring done
+[6.141s] -- Generating done
+[6.150s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager
+[6.183s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_lifecycle_manager -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager
+[6.184s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_lifecycle_manager': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_lifecycle_manager -- -j12 -l12
+[6.391s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.395s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager_client.cpp.o[0m
+[6.396s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o[0m
+[6.434s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[13.987s] [ 38%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[14.279s] [ 38%] Built target gtest_main
+[127.254s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[K已杀死 signal terminated program cc1plus
+[127.633s] compilation terminated.
+[127.644s] gmake[2]: *** [CMakeFiles/nav2_lifecycle_manager_core.dir/build.make:76：CMakeFiles/nav2_lifecycle_manager_core.dir/src/lifecycle_manager.cpp.o] 错误 1
+[127.644s] gmake[2]: *** 正在等待未完成的任务....

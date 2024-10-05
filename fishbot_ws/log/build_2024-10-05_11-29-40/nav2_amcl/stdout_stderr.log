@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target pf_lib[0m
+[35m[1mConsolidate compiler generated dependencies of target map_lib[0m
+[ 29%] Built target pf_lib
+[ 50%] Built target map_lib
+[35m[1mConsolidate compiler generated dependencies of target motions_lib[0m
+[35m[1mConsolidate compiler generated dependencies of target sensors_lib[0m
+[ 62%] Built target motions_lib
+[ 83%] Built target sensors_lib
+[ 87%] [32mBuilding CXX object CMakeFiles/amcl_core.dir/src/amcl_node.cpp.o[0m
+[ 91%] [32m[1mLinking CXX shared library libamcl_core.so[0m
+[ 91%] Built target amcl_core
+[ 95%] [32mBuilding CXX object CMakeFiles/amcl.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable amcl[0m
+[100%] Built target amcl

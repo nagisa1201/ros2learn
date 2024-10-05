@@ -1,0 +1,338 @@
+[0.024s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_behavior_tree -- -j12 -l12
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_to_pose_action_bt_node[0m
+[0.119s] [35m[1mConsolidate compiler generated dependencies of target nav2_smooth_path_action_bt_node[0m
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target nav2_compute_path_through_poses_action_bt_node[0m
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target nav2_follow_path_action_bt_node[0m
+[0.148s] [  1%] Built target nav2_spin_cancel_bt_node
+[0.148s] [  2%] Built target nav2_drive_on_heading_cancel_bt_node
+[0.148s] [  3%] Built target nav2_behavior_tree
+[0.148s] [  4%] Built target nav2_back_up_cancel_bt_node
+[0.149s] [  5%] Built target nav2_wait_cancel_bt_node
+[0.151s] [  6%] Built target nav2_controller_cancel_bt_node
+[0.152s] [  7%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.153s] [  8%] Built target nav2_back_up_action_bt_node
+[0.155s] [  8%] Built target nav2_smooth_path_action_bt_node
+[0.156s] [  9%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.158s] [ 10%] Built target nav2_follow_path_action_bt_node
+[0.161s] [ 11%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.176s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_reached_condition_bt_node[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_condition_bt_node[0m
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_path_valid_condition_bt_node[0m
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target nav2_transform_available_condition_bt_node[0m
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target nav2_globally_updated_goal_condition_bt_node[0m
+[0.184s] [35m[1mConsolidate compiler generated dependencies of target nav2_time_expired_condition_bt_node[0m
+[0.197s] [ 13%] Built target nav2_is_stuck_condition_bt_node
+[0.197s] [ 13%] Built target nav2_clear_costmap_service_bt_node
+[0.201s] [ 13%] Built target nav2_goal_updated_condition_bt_node
+[0.201s] [ 14%] Built target nav2_drive_on_heading_bt_node
+[0.202s] [ 15%] Built target nav2_spin_action_bt_node
+[0.202s] [ 17%] Built target nav2_assisted_teleop_action_bt_node
+[0.203s] [ 17%] Built target nav2_goal_reached_condition_bt_node
+[0.203s] [ 18%] Built target nav2_wait_action_bt_node
+[0.209s] [ 19%] Built target nav2_transform_available_condition_bt_node
+[0.210s] [ 20%] Built target nav2_globally_updated_goal_condition_bt_node
+[0.215s] [ 21%] Built target nav2_time_expired_condition_bt_node
+[0.220s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_traveled_condition_bt_node[0m
+[0.222s] [ 22%] Built target nav2_is_path_valid_condition_bt_node
+[0.224s] [35m[1mConsolidate compiler generated dependencies of target nav2_rate_controller_bt_node[0m
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_charging_condition_bt_node[0m
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target nav2_reinitialize_global_localization_service_bt_node[0m
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target nav2_distance_controller_bt_node[0m
+[0.227s] [35m[1mConsolidate compiler generated dependencies of target nav2_is_battery_low_condition_bt_node[0m
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_expiring_timer_condition[0m
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target nav2_initial_pose_received_condition_bt_node[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target nav2_speed_controller_bt_node[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_action_bt_node[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target nav2_truncate_path_local_action_bt_node[0m
+[0.247s] [ 23%] Built target nav2_initial_pose_received_condition_bt_node
+[0.249s] [ 24%] Built target nav2_path_expiring_timer_condition
+[0.250s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updater_node_bt_node[0m
+[0.251s] [ 25%] Built target nav2_distance_controller_bt_node
+[0.251s] [ 26%] Built target nav2_reinitialize_global_localization_service_bt_node
+[0.252s] [ 27%] Built target nav2_distance_traveled_condition_bt_node
+[0.253s] [ 28%] Built target nav2_rate_controller_bt_node
+[0.258s] [ 29%] Built target nav2_is_battery_low_condition_bt_node
+[0.261s] [ 30%] Built target nav2_is_battery_charging_condition_bt_node
+[0.261s] [ 31%] Built target nav2_speed_controller_bt_node
+[0.263s] [ 32%] Built target nav2_truncate_path_action_bt_node
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target nav2_recovery_node_bt_node[0m
+[0.274s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_to_pose_action_bt_node[0m
+[0.275s] [ 33%] Built target nav2_truncate_path_local_action_bt_node
+[0.276s] [35m[1mConsolidate compiler generated dependencies of target nav2_path_longer_on_approach_bt_node[0m
+[0.276s] [35m[1mConsolidate compiler generated dependencies of target nav2_get_pose_from_path_action_bt_node[0m
+[0.277s] [ 34%] Built target nav2_goal_updater_node_bt_node
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target nav2_pipeline_sequence_bt_node[0m
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target nav2_round_robin_node_bt_node[0m
+[0.280s] [35m[1mConsolidate compiler generated dependencies of target nav2_remove_passed_goals_action_bt_node[0m
+[0.281s] [35m[1mConsolidate compiler generated dependencies of target nav2_navigate_through_poses_action_bt_node[0m
+[0.290s] [35m[1mConsolidate compiler generated dependencies of target nav2_single_trigger_bt_node[0m
+[0.293s] [35m[1mConsolidate compiler generated dependencies of target nav2_planner_selector_bt_node[0m
+[0.299s] [ 35%] Built target nav2_navigate_to_pose_action_bt_node
+[0.299s] [ 36%] Built target nav2_recovery_node_bt_node
+[0.299s] [ 37%] Built target nav2_round_robin_node_bt_node
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target nav2_controller_selector_bt_node[0m
+[0.301s] [35m[1mConsolidate compiler generated dependencies of target nav2_smoother_selector_bt_node[0m
+[0.306s] [ 38%] Built target nav2_remove_passed_goals_action_bt_node
+[0.308s] [ 39%] Built target nav2_get_pose_from_path_action_bt_node
+[0.308s] [ 40%] Built target nav2_navigate_through_poses_action_bt_node
+[0.308s] [ 41%] Built target nav2_path_longer_on_approach_bt_node
+[0.309s] [ 42%] Built target nav2_pipeline_sequence_bt_node
+[0.315s] [ 43%] Built target nav2_planner_selector_bt_node
+[0.316s] [ 44%] Built target nav2_single_trigger_bt_node
+[0.316s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_checker_selector_bt_node[0m
+[0.321s] [ 45%] Built target nav2_controller_selector_bt_node
+[0.322s] [35m[1mConsolidate compiler generated dependencies of target nav2_progress_checker_selector_bt_node[0m
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target nav2_goal_updated_controller_bt_node[0m
+[0.326s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.327s] [ 46%] Built target nav2_smoother_selector_bt_node
+[0.338s] [ 47%] Built target nav2_goal_checker_selector_bt_node
+[0.342s] [ 47%] Built target gtest
+[0.342s] [ 48%] Built target nav2_progress_checker_selector_bt_node
+[0.343s] [ 49%] Built target nav2_goal_updated_controller_bt_node
+[0.343s] [ 50%] Built target gtest_main
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target test_bt_conversions[0m
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target test_condition_distance_traveled[0m
+[0.365s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_reached[0m
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target test_condition_time_expired[0m
+[0.368s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_stuck[0m
+[0.372s] [35m[1mConsolidate compiler generated dependencies of target test_condition_initial_pose_received[0m
+[0.372s] [35m[1mConsolidate compiler generated dependencies of target test_condition_path_expiring_timer[0m
+[0.372s] [35m[1mConsolidate compiler generated dependencies of target test_condition_goal_updated[0m
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_charging[0m
+[0.377s] [35m[1mConsolidate compiler generated dependencies of target test_condition_globally_updated_goal[0m
+[0.378s] [35m[1mConsolidate compiler generated dependencies of target test_condition_transform_available[0m
+[0.379s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_battery_low[0m
+[0.387s] [ 51%] Built target test_bt_conversions
+[0.390s] [ 52%] Built target test_condition_distance_traveled
+[0.392s] [ 53%] Built target test_condition_is_stuck
+[0.392s] [ 54%] Built target test_condition_goal_reached
+[0.394s] [ 55%] Built target test_condition_is_battery_charging
+[0.400s] [ 56%] Built target test_condition_globally_updated_goal
+[0.401s] [ 57%] Built target test_condition_initial_pose_received
+[0.404s] [ 57%] Built target test_condition_time_expired
+[0.404s] [ 58%] Built target test_condition_is_battery_low
+[0.404s] [ 59%] Built target test_condition_path_expiring_timer
+[0.406s] [ 60%] Built target test_condition_transform_available
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_distance_controller[0m
+[0.414s] [ 61%] Built target test_condition_goal_updated
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_speed_controller[0m
+[0.414s] [35m[1mConsolidate compiler generated dependencies of target test_condition_is_path_valid[0m
+[0.416s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_rate_controller[0m
+[0.422s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updater_node[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target test_single_trigger_node[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target test_goal_updated_controller[0m
+[0.425s] [35m[1mConsolidate compiler generated dependencies of target test_decorator_path_longer_on_approach[0m
+[0.430s] [35m[1mConsolidate compiler generated dependencies of target test_control_pipeline_sequence[0m
+[0.435s] [35m[1mConsolidate compiler generated dependencies of target test_control_recovery_node[0m
+[0.437s] [35m[1mConsolidate compiler generated dependencies of target test_control_round_robin_node[0m
+[0.441s] [35m[1mConsolidate compiler generated dependencies of target test_bt_action_node[0m
+[0.442s] [ 62%] Built target test_decorator_rate_controller
+[0.442s] [ 63%] Built target test_decorator_speed_controller
+[0.447s] [ 64%] Built target test_condition_is_path_valid
+[0.449s] [ 65%] Built target test_decorator_distance_controller
+[0.449s] [ 66%] Built target test_goal_updated_controller
+[0.452s] [ 67%] Built target test_goal_updater_node
+[0.456s] [ 69%] Built target test_control_recovery_node
+[0.456s] [ 69%] Built target test_decorator_path_longer_on_approach
+[0.459s] [ 70%] Built target test_single_trigger_node
+[0.462s] [ 71%] Built target test_bt_action_node
+[0.462s] [ 72%] Built target test_control_round_robin_node
+[0.465s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_action[0m
+[0.467s] [ 73%] Built target test_control_pipeline_sequence
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading[0m
+[0.471s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_action[0m
+[0.474s] [35m[1mConsolidate compiler generated dependencies of target test_action_assisted_teleop_action[0m
+[0.474s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_action[0m
+[0.476s] [35m[1mConsolidate compiler generated dependencies of target test_action_spin_cancel_action[0m
+[0.477s] [35m[1mConsolidate compiler generated dependencies of target test_action_wait_cancel_action[0m
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target test_action_controller_cancel_action[0m
+[0.485s] [35m[1mConsolidate compiler generated dependencies of target test_action_back_up_cancel_action[0m
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target test_action_drive_on_heading_cancel_action[0m
+[0.491s] [35m[1mConsolidate compiler generated dependencies of target test_action_assisted_teleop_cancel_action[0m
+[0.494s] [ 74%] Built target test_action_spin_action
+[0.497s] [35m[1mConsolidate compiler generated dependencies of target test_action_clear_costmap_service[0m
+[0.498s] [ 75%] Built target test_action_assisted_teleop_action
+[0.499s] [ 76%] Built target test_action_drive_on_heading
+[0.502s] [ 77%] Built target test_action_wait_action
+[0.506s] [ 78%] Built target test_action_spin_cancel_action
+[0.506s] [ 79%] Built target test_action_controller_cancel_action
+[0.511s] [ 80%] Built target test_action_drive_on_heading_cancel_action
+[0.511s] [ 81%] Built target test_action_back_up_action
+[0.512s] [ 82%] Built target test_action_wait_cancel_action
+[0.516s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[0.521s] [ 84%] Built target test_action_back_up_cancel_action
+[0.523s] [35m[1mConsolidate compiler generated dependencies of target test_action_smooth_path_action[0m
+[0.527s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_through_poses_action[0m
+[0.527s] [ 85%] Built target test_action_clear_costmap_service
+[0.527s] [35m[1mConsolidate compiler generated dependencies of target test_action_reinitialize_global_localization_service[0m
+[0.529s] [35m[1mConsolidate compiler generated dependencies of target test_action_compute_path_to_pose_action[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_to_pose_action[0m
+[0.533s] [35m[1mConsolidate compiler generated dependencies of target test_action_navigate_through_poses_action[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_local_action[0m
+[0.535s] [35m[1mConsolidate compiler generated dependencies of target test_action_follow_path_action[0m
+[0.540s] [35m[1mConsolidate compiler generated dependencies of target test_remove_passed_goals_action[0m
+[0.542s] [35m[1mConsolidate compiler generated dependencies of target test_truncate_path_action[0m
+[0.547s] [35m[1mConsolidate compiler generated dependencies of target test_planner_selector_node[0m
+[0.551s] [ 86%] Built target test_action_smooth_path_action
+[0.554s] [ 87%] Built target test_action_compute_path_to_pose_action
+[0.555s] [35m[1mConsolidate compiler generated dependencies of target test_get_pose_from_path_action[0m
+[0.555s] [ 88%] Built target test_action_reinitialize_global_localization_service
+[0.557s] [ 89%] Built target test_action_compute_path_through_poses_action
+[0.561s] [ 90%] Built target test_action_navigate_through_poses_action
+[0.564s] [ 91%] Built target test_truncate_path_action
+[0.564s] [ 92%] Built target test_action_navigate_to_pose_action
+[0.565s] [ 93%] Built target test_truncate_path_local_action
+[0.567s] [ 93%] Built target test_action_follow_path_action
+[0.572s] [35m[1mConsolidate compiler generated dependencies of target test_smoother_selector_node[0m
+[0.574s] [35m[1mConsolidate compiler generated dependencies of target test_controller_selector_node[0m
+[0.575s] [35m[1mConsolidate compiler generated dependencies of target test_goal_checker_selector_node[0m
+[0.575s] [ 95%] Built target test_remove_passed_goals_action
+[0.575s] [ 95%] Built target test_planner_selector_node
+[0.575s] [35m[1mConsolidate compiler generated dependencies of target test_progress_checker_selector_node[0m
+[0.583s] [ 96%] Built target test_get_pose_from_path_action
+[0.594s] [ 97%] Built target test_smoother_selector_node
+[0.595s] [ 98%] Built target test_controller_selector_node
+[0.596s] [ 99%] Built target test_progress_checker_selector_node
+[0.596s] [100%] Built target test_goal_checker_selector_node
+[0.610s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_behavior_tree -- -j12 -l12
+[1.152s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_behavior_tree
+[1.162s] -- Install configuration: "Release"
+[1.164s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[1.165s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[1.167s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[1.169s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[1.171s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[1.173s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[1.175s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[1.176s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[1.178s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[1.180s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[1.181s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[1.183s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[1.184s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[1.186s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[1.188s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[1.190s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[1.191s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[1.193s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[1.195s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[1.196s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[1.198s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[1.199s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[1.201s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[1.202s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[1.204s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[1.206s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[1.207s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[1.209s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[1.211s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[1.212s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[1.214s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[1.215s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[1.217s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[1.219s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[1.221s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[1.223s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[1.224s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[1.226s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[1.228s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[1.230s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[1.231s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[1.233s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[1.235s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[1.236s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[1.238s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[1.239s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[1.241s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[1.242s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[1.244s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[1.245s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[1.246s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[1.246s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include/
+[1.246s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree
+[1.247s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[1.247s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[1.247s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[1.248s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[1.249s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[1.250s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[1.251s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[1.252s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_conversions.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[1.253s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[1.254s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[1.254s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[1.255s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.255s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[1.255s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.255s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[1.255s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[1.256s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[1.260s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_behavior_tree

@@ -1,0 +1,171 @@
+[0.045s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_util
+[0.240s] -- The C compiler identification is GNU 11.4.0
+[0.419s] -- The CXX compiler identification is GNU 11.4.0
+[0.446s] -- Detecting C compiler ABI info
+[0.698s] -- Detecting C compiler ABI info - done
+[0.716s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.717s] -- Detecting C compile features
+[0.720s] -- Detecting C compile features - done
+[0.728s] -- Detecting CXX compiler ABI info
+[1.015s] -- Detecting CXX compiler ABI info - done
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.039s] -- Detecting CXX compile features
+[1.040s] -- Detecting CXX compile features - done
+[1.050s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.486s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.744s] -- Found nav2_common: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[1.744s] -- Found nav2_msgs: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_msgs/share/nav2_msgs/cmake)
+[1.856s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.872s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.895s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.925s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.973s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.365s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.688s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.698s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.015s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.219s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.254s] -- Looking for pthread.h
+[3.527s] -- Looking for pthread.h - found
+[3.527s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.809s] -- Found Threads: TRUE  
+[4.192s] -- Found tf2_geometry_msgs: 0.25.8 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.256s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.263s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.264s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.278s] -- Found lifecycle_msgs: 1.2.1 (/opt/ros/humble/share/lifecycle_msgs/cmake)
+[4.354s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[4.420s] -- Found bondcpp: 3.0.2 (/opt/ros/humble/share/bondcpp/cmake)
+[4.538s] -- Setting build type to Release as none was specified.
+[4.687s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: program_options 
+[4.701s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.710s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[4.723s] -- Found launch_testing_ament_cmake: 1.0.6 (/opt/ros/humble/share/launch_testing_ament_cmake/cmake)
+[4.730s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.794s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.806s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.807s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.807s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.807s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.873s] -- Found PythonExtra: .so  
+[5.331s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.405s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.411s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.411s] -- Configured cppcheck include dirs: /home/nagisa/fishbot_ws/src/navigation2/nav2_util/include
+[5.412s] -- Configured cppcheck exclude dirs and/or files: 
+[5.416s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.416s] -- Configured cpplint exclude dirs and/or files: 
+[5.418s] -- Added test 'lint_cmake' to check CMake code style
+[5.425s] -- Added test 'uncrustify' to check C / C++ code style
+[5.425s] -- Configured uncrustify additional arguments: 
+[5.427s] -- Added test 'xmllint' to check XML markup files
+[5.433s] -- Configuring done
+[5.928s] -- Generating done
+[5.939s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/nav2_util
+[5.976s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_util
+[5.980s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_util -- -j12 -l12
+[6.180s] [  2%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_utils.cpp.o[0m
+[6.181s] [  5%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/string_utils.cpp.o[0m
+[6.182s] [  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.187s] [ 10%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.193s] [ 12%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/robot_utils.cpp.o[0m
+[6.195s] [ 15%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_node.cpp.o[0m
+[6.208s] [ 17%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/costmap.cpp.o[0m
+[6.225s] [ 20%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_utils.cpp.o[0m
+[6.228s] [ 22%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/node_thread.cpp.o[0m
+[6.265s] [ 25%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/lifecycle_service_client.cpp.o[0m
+[6.303s] [ 27%] [32mBuilding CXX object src/CMakeFiles/nav2_util_core.dir/odometry_utils.cpp.o[0m
+[13.366s] [ 30%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[13.706s] [ 30%] Built target gtest_main
+[29.109s] [ 32%] [32m[1mLinking CXX static library libgtest.a[0m
+[29.236s] [ 32%] Built target gtest
+[29.310s] [ 35%] [32mBuilding CXX object test/CMakeFiles/test_execution_timer.dir/test_execution_timer.cpp.o[0m
+[33.555s] [ 37%] [32m[1mLinking CXX executable test_execution_timer[0m
+[33.846s] [ 37%] Built target test_execution_timer
+[46.952s] [ 40%] [32m[1mLinking CXX shared library libnav2_util_core.so[0m
+[48.210s] [ 40%] Built target nav2_util_core
+[48.315s] [ 42%] [32mBuilding CXX object src/CMakeFiles/lifecycle_bringup.dir/lifecycle_bringup_commandline.cpp.o[0m
+[48.315s] [ 45%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[48.326s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[48.326s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[48.327s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[48.345s] [ 55%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[48.365s] [ 57%] [32mBuilding CXX object test/CMakeFiles/test_string_utils.dir/test_string_utils.cpp.o[0m
+[48.365s] [ 60%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[48.396s] [ 62%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[48.398s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[48.398s] [ 67%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[48.415s] [ 70%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[55.823s] [ 72%] [32m[1mLinking CXX executable test_validation_messages[0m
+[57.014s] [ 72%] Built target test_validation_messages
+[64.065s] [ 75%] [32m[1mLinking CXX executable test_string_utils[0m
+[64.182s] [ 77%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[64.428s] [ 80%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[66.122s] [ 80%] Built target test_string_utils
+[66.205s] [ 80%] Built target test_lifecycle_utils
+[66.255s] [ 80%] Built target test_geometry_utils
+[68.757s] [ 82%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[69.444s] [ 82%] Built target test_lifecycle_cli_node
+[71.883s] [ 85%] [32m[1mLinking CXX executable lifecycle_bringup[0m
+[72.451s] [ 85%] Built target lifecycle_bringup
+[74.969s] [ 87%] [32m[1mLinking CXX executable test_node_utils[0m
+[75.619s] [ 87%] Built target test_node_utils
+[77.134s] [ 90%] [32m[1mLinking CXX executable test_robot_utils[0m
+[77.816s] [ 90%] Built target test_robot_utils
+[78.231s] [ 92%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[78.851s] [ 92%] Built target test_lifecycle_node
+[82.576s] [ 95%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[83.225s] [ 95%] Built target test_odometry_utils
+[99.062s] [ 97%] [32m[1mLinking CXX executable test_service_client[0m
+[99.700s] [ 97%] Built target test_service_client
+[104.425s] [100%] [32m[1mLinking CXX executable test_actions[0m
+[105.365s] [100%] Built target test_actions
+[105.588s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_util -- -j12 -l12
+[106.052s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_util': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_util
+[106.124s] -- Install configuration: "Release"
+[106.125s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include/
+[106.126s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util
+[106.126s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/occ_grid_values.hpp
+[106.127s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/string_utils.hpp
+[106.127s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/node_utils.hpp
+[106.127s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/validate_messages.hpp
+[106.128s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/robot_utils.hpp
+[106.128s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/node_thread.hpp
+[106.128s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/geometry_utils.hpp
+[106.128s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/costmap.hpp
+[106.129s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/lifecycle_node.hpp
+[106.129s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/line_iterator.hpp
+[106.129s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/odometry_utils.hpp
+[106.129s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/lifecycle_utils.hpp
+[106.129s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/service_client.hpp
+[106.130s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/execution_timer.hpp
+[106.130s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/simple_action_server.hpp
+[106.130s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/clear_entirely_costmap_service_client.hpp
+[106.130s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/include//nav2_util/lifecycle_service_client.hpp
+[106.132s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/library_path.sh
+[106.135s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[106.140s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[106.142s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[106.146s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[106.147s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[106.148s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/path.sh
+[106.149s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/environment/path.dsv
+[106.150s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/local_setup.bash
+[106.151s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/local_setup.sh
+[106.152s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/local_setup.zsh
+[106.153s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/local_setup.dsv
+[106.154s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/package.dsv
+[106.156s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[106.157s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.159s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[106.160s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.162s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[106.163s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[106.164s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/share/nav2_util/package.xml
+[106.167s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/lib/libnav2_util_core.so
+[106.173s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_util/lib/libnav2_util_core.so" to ""
+[106.173s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[106.174s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+[106.189s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_util

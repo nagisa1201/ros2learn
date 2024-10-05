@@ -1,0 +1,33 @@
+[0.557s] Invoking command in '/home/nagisa/candpy_ws/src/py_pkg': PYTHONPATH=/home/nagisa/candpy_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/nagisa/candpy_ws/build/py_pkg/build install --record /home/nagisa/candpy_ws/build/py_pkg/install.log --single-version-externally-managed install_data
+[0.825s] running egg_info
+[0.825s] creating ../../build/py_pkg/py_pkg.egg-info
+[0.826s] writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO
+[0.826s] writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt
+[0.826s] writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt
+[0.826s] writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt
+[0.826s] writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt
+[0.827s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.828s] reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.829s] writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.830s] running build_py
+[0.830s] creating /home/nagisa/candpy_ws/build/py_pkg/build
+[0.830s] creating /home/nagisa/candpy_ws/build/py_pkg/build/lib
+[0.830s] creating /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg
+[0.830s] copying py_pkg/__init__.py -> /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg
+[0.830s] running install
+[0.830s] running install_lib
+[0.831s] creating /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[0.831s] copying /home/nagisa/candpy_ws/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg
+[0.832s] byte-compiling /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.832s] running install_data
+[0.832s] creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index
+[0.832s] creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index
+[0.833s] creating /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index/packages
+[0.833s] copying resource/py_pkg -> /home/nagisa/candpy_ws/install/py_pkg/share/ament_index/resource_index/packages
+[0.833s] copying package.xml -> /home/nagisa/candpy_ws/install/py_pkg/share/py_pkg
+[0.833s] running install_egg_info
+[0.835s] Copying ../../build/py_pkg/py_pkg.egg-info to /home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages/py_pkg-0.0.0-py3.10.egg-info
+[0.836s] running install_scripts
+[0.861s] writing list of installed files to '/home/nagisa/candpy_ws/build/py_pkg/install.log'
+[0.879s] Invoked command in '/home/nagisa/candpy_ws/src/py_pkg' returned '0': PYTHONPATH=/home/nagisa/candpy_ws/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/candpy_ws/install/py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/py_pkg build --build-base /home/nagisa/candpy_ws/build/py_pkg/build install --record /home/nagisa/candpy_ws/build/py_pkg/install.log --single-version-externally-managed install_data

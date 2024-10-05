@@ -1,0 +1,199 @@
+[0.137s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_mppi_controller
+[0.363s] -- The C compiler identification is GNU 11.4.0
+[0.543s] -- The CXX compiler identification is GNU 11.4.0
+[0.574s] -- Detecting C compiler ABI info
+[0.900s] -- Detecting C compiler ABI info - done
+[0.919s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.920s] -- Detecting C compile features
+[0.922s] -- Detecting C compile features - done
+[0.953s] -- Detecting CXX compiler ABI info
+[1.282s] -- Detecting CXX compiler ABI info - done
+[1.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.296s] -- Detecting CXX compile features
+[1.296s] -- Detecting CXX compile features - done
+[1.305s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.831s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.173s] -- Performing Test arch_native_supported
+[2.469s] -- Performing Test arch_native_supported - Success
+[2.497s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.604s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.617s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.643s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.676s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.723s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.869s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.880s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.268s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.340s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.469s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.500s] -- Looking for pthread.h
+[3.761s] -- Looking for pthread.h - found
+[3.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.061s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.061s] -- Found Threads: TRUE  
+[4.205s] -- Found nav2_common: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake)
+[4.210s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[4.280s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[4.359s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[4.486s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[4.551s] -- Found nav2_core: 1.1.16 (/home/nagisa/fishbot_ws/install/nav2_core/share/nav2_core/cmake)
+[5.197s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.198s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.425s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[5.436s] -- Setting build type to Release as none was specified.
+[5.437s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[5.719s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Success
+[5.719s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[6.004s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Success
+[6.005s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[6.306s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Success
+[6.308s] -- Performing Test COMPILER_SUPPORTS_FMA
+[6.621s] -- Performing Test COMPILER_SUPPORTS_FMA - Success
+[7.057s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.066s] -- Found ament_cmake_gtest: 1.3.10 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[7.315s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[9.962s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.965s] -- Configured cppcheck include dirs: /home/nagisa/fishbot_ws/src/navigation2/nav2_mppi_controller/include
+[9.965s] -- Configured cppcheck exclude dirs and/or files: 
+[9.975s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.975s] -- Configured cpplint exclude dirs and/or files: 
+[9.980s] -- Added test 'lint_cmake' to check CMake code style
+[9.993s] -- Added test 'uncrustify' to check C / C++ code style
+[9.994s] -- Configured uncrustify additional arguments: 
+[9.994s] -- Added test 'xmllint' to check XML markup files
+[10.007s] -- Configuring done
+[12.276s] -- Generating done
+[12.287s] -- Build files have been written to: /home/nagisa/fishbot_ws/build/nav2_mppi_controller
+[12.331s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/install/nav2_mppi_controller
+[12.340s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_mppi_controller -- -j12 -l12
+[12.552s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[12.556s] [  4%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.574s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[12.574s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[12.575s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[12.581s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[12.582s] [ 16%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[12.582s] [ 16%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[12.583s] [ 18%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[12.583s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.584s] [ 22%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[12.602s] [ 24%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[19.709s] [ 26%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[20.016s] [ 26%] Built target gtest_main
+[20.093s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[33.516s] [ 30%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[45.458s] [ 32%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[48.517s] [ 34%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[63.729s] [ 36%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[73.965s] [ 38%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[81.289s] [ 40%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[88.440s] [ 42%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[92.406s] [ 44%] [32m[1mLinking CXX static library libgtest.a[0m
+[92.571s] [ 44%] Built target gtest
+[92.583s] [ 46%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[325.614s] [ 48%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[326.303s] [ 48%] Built target mppi_critics
+[327.322s] [ 51%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[327.722s] [ 51%] Built target mppi_controller
+[327.797s] [ 53%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[327.797s] [ 57%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[327.797s] [ 57%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[327.797s] [ 61%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[327.797s] [ 61%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[327.797s] [ 63%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[327.798s] [ 65%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[327.798s] [ 67%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[327.798s] [ 69%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[327.798s] [ 71%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[327.798s] [ 73%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[327.798s] [ 75%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[355.270s] [ 77%] [32m[1mLinking CXX executable path_handler_test[0m
+[356.170s] [ 77%] Built target path_handler_test
+[370.509s] [ 79%] [32m[1mLinking CXX executable critic_manager_test[0m
+[371.557s] [ 79%] Built target critic_manager_test
+[417.784s] [ 81%] [32m[1mLinking CXX executable utils_test[0m
+[418.749s] [ 81%] Built target utils_test
+[421.518s] [ 83%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[421.972s] [ 83%] Built target parameter_handler_test
+[452.307s] [ 85%] [32m[1mLinking CXX executable models_test[0m
+[453.019s] [ 85%] Built target models_test
+[466.806s] [ 87%] [32m[1mLinking CXX executable noise_generator_test[0m
+[467.193s] [ 89%] [32m[1mLinking CXX executable motion_model_tests[0m
+[467.382s] [ 89%] Built target noise_generator_test
+[467.711s] [ 89%] Built target motion_model_tests
+[485.432s] [ 91%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[486.081s] [ 91%] Built target trajectory_visualizer_tests
+[489.969s] [ 93%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[490.431s] [ 93%] Built target controller_state_transition_test
+[491.300s] [ 95%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[491.721s] [ 95%] Built target optimizer_smoke_test
+[494.635s] [ 97%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[495.064s] [ 97%] Built target optimizer_unit_tests
+[499.183s] [100%] [32m[1mLinking CXX executable critics_tests[0m
+[499.677s] [100%] Built target critics_tests
+[499.929s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_mppi_controller -- -j12 -l12
+[500.165s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_mppi_controller
+[500.176s] -- Install configuration: "Release"
+[500.178s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[500.182s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_mppi_controller/lib/libmppi_controller.so" to ""
+[500.182s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[500.184s] -- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_mppi_controller/lib/libmppi_critics.so" to ""
+[500.185s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include/
+[500.186s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller
+[500.186s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[500.186s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools
+[500.186s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[500.187s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[500.187s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[500.187s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[500.187s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[500.188s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[500.188s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[500.188s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[500.189s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models
+[500.189s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[500.189s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[500.190s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[500.190s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[500.190s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[500.191s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[500.191s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[500.191s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics
+[500.191s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[500.192s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[500.192s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[500.192s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[500.192s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[500.193s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[500.193s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[500.193s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[500.193s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[500.194s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[500.194s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[500.194s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[500.194s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[500.197s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[500.198s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[500.198s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/mppic.xml
+[500.199s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/critics.xml
+[500.201s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[500.201s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[500.204s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[500.204s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[500.204s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[500.205s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[500.205s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[500.206s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[500.206s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[500.207s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[500.207s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[500.208s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[500.209s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[500.209s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[500.210s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[500.211s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[500.212s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[500.213s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[500.213s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[500.213s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[500.236s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_core:/home/nagisa/fishbot_ws/install/nav2_costmap_2d:/home/nagisa/fishbot_ws/install/nav2_map_server:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_voxel_grid:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_costmap_2d/lib:/home/nagisa/fishbot_ws/install/nav2_map_server/lib:/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_voxel_grid/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_mppi_controller

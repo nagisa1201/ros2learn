@@ -1,0 +1,499 @@
+[0.180s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.181s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x782c0274cfa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x782c0274c8e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x782c0274c8e0>>)
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.330s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nagisa/fishbot_ws'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer' with type 'ros.cmake' and name 'cartographer'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros) by extension 'ros'
+[0.353s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros' with type 'ros.ament_cmake' and name 'cartographer_ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_ros_msgs) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_ros_msgs' with type 'ros.ament_cmake' and name 'cartographer_ros_msgs'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/cartographer_rviz) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cartographer_ros/cartographer_rviz' with type 'ros.ament_cmake' and name 'cartographer_rviz'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/docs) ignored
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'ros'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['cmake', 'python']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'cmake'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extensions ['python_setup_py']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/cartographer_ros/scripts) by extension 'python_setup_py'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_cartographer) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_cartographer' with type 'ros.ament_cmake' and name 'fishbot_cartographer'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/fishbot_description) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fishbot_description' with type 'ros.ament_python' and name 'fishbot_description'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.360s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/nagisa/fishbot_ws/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 364 installed packages in /opt/ros/humble
+[0.400s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/cartographer', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/cartographer_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/fishbot_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/fishbot_cartographer', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/fishbot_cartographer', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'fishbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'fishbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/fishbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/fishbot_description', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/fishbot_description', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/cartographer_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/cartographer_ros', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'cartographer_rviz' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.445s] DEBUG:colcon.colcon_core.verb:Building package 'cartographer_rviz' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nagisa/fishbot_ws/build/cartographer_rviz', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nagisa/fishbot_ws/install/cartographer_rviz', 'merge_install': False, 'path': '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_rviz', 'symlink_install': False, 'test_result_base': None}
+[0.445s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.447s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/nagisa/fishbot_ws/src/cartographer' with build type 'cmake'
+[0.448s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nagisa/fishbot_ws/src/cartographer'
+[0.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.453s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs' with build type 'ament_cmake'
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros_msgs'
+[0.457s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.457s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nagisa/fishbot_ws/src/fishbot_cartographer' with build type 'ament_cmake'
+[0.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nagisa/fishbot_ws/src/fishbot_cartographer'
+[0.462s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.466s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/nagisa/fishbot_ws/src/fishbot_description' with build type 'ament_python'
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'ament_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/ament_prefix_path.sh'
+[0.469s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.469s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer -- -j12 -l12
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_ros_msgs -- -j12 -l12
+[0.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/fishbot_cartographer -- -j12 -l12
+[0.721s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/nagisa/fishbot_ws/src/fishbot_description'
+[0.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/fishbot_cartographer -- -j12 -l12
+[0.784s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/fishbot_cartographer
+[0.798s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[0.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/fishbot_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/fishbot_cartographer
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer' for CMake module files
+[0.812s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer' for CMake config files
+[0.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[0.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[0.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/bin'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[0.816s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/lib/python3.10/site-packages'
+[0.817s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/bin'
+[0.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[0.819s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[0.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[0.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[0.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[0.822s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[0.879s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_cartographer)
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer' for CMake module files
+[0.880s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer' for CMake config files
+[0.881s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_cartographer', 'cmake_prefix_path')
+[0.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.ps1'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.dsv'
+[0.882s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/hook/cmake_prefix_path.sh'
+[0.883s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/bin'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/lib/pkgconfig/fishbot_cartographer.pc'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/lib/python3.10/site-packages'
+[0.884s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_cartographer/bin'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.ps1'
+[0.885s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.dsv'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.sh'
+[0.886s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.bash'
+[0.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/fishbot_cartographer/package.zsh'
+[0.887s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/fishbot_cartographer/share/colcon-core/packages/fishbot_cartographer)
+[0.894s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_ros_msgs -- -j12 -l12
+[1.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/src/fishbot_description': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer -- -j12 -l12
+[1.374s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description' for CMake module files
+[1.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/src/fishbot_description' returned '0': PYTHONPATH=/home/nagisa/fishbot_ws/build/fishbot_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/fishbot_description build --build-base /home/nagisa/fishbot_ws/build/fishbot_description/build install --record /home/nagisa/fishbot_ws/build/fishbot_description/install.log --single-version-externally-managed install_data
+[1.375s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description' for CMake config files
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description/lib'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description/bin'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description/lib/pkgconfig/fishbot_description.pc'
+[1.376s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description/lib/python3.10/site-packages'
+[1.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('fishbot_description', 'pythonpath')
+[1.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.ps1'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.dsv'
+[1.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/hook/pythonpath.sh'
+[1.378s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/fishbot_description/bin'
+[1.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fishbot_description)
+[1.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/package.ps1'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/package.dsv'
+[1.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/package.sh'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/package.bash'
+[1.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/fishbot_description/share/fishbot_description/package.zsh'
+[1.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/fishbot_description/share/colcon-core/packages/fishbot_description)
+[1.860s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_ros_msgs
+[1.937s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[1.938s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs' for CMake module files
+[1.938s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_ros_msgs
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs' for CMake config files
+[1.939s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[1.941s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib'
+[1.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/bin'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/bin'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[1.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[2.681s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer
+[2.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer
+[2.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros_msgs)
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs' for CMake module files
+[2.882s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs' for CMake config files
+[2.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'cmake_prefix_path')
+[2.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.ps1'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.dsv'
+[2.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/cmake_prefix_path.sh'
+[2.885s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib'
+[2.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros_msgs', 'ld_library_path_lib')
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.ps1'
+[2.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.dsv'
+[2.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/hook/ld_library_path_lib.sh'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/bin'
+[2.886s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib/pkgconfig/cartographer_ros_msgs.pc'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib/python3.10/site-packages'
+[2.887s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/bin'
+[2.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.ps1'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.dsv'
+[2.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.sh'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.bash'
+[2.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/cartographer_ros_msgs/package.zsh'
+[2.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/share/colcon-core/packages/cartographer_ros_msgs)
+[4.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path')
+[4.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path.ps1'
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path.dsv'
+[4.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path.sh'
+[4.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pkg_config_path_multiarch')
+[4.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.ps1'
+[4.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.dsv'
+[4.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pkg_config_path_multiarch.sh'
+[4.562s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer)
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer' for CMake module files
+[4.562s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer' for CMake config files
+[4.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'cmake_prefix_path')
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.ps1'
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.dsv'
+[4.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/cmake_prefix_path.sh'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer/lib'
+[4.564s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer/bin'
+[4.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'path')
+[4.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/path.ps1'
+[4.564s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/path.dsv'
+[4.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/path.sh'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer/lib/pkgconfig/cartographer.pc'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer/lib/python3.10/site-packages'
+[4.565s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer/bin'
+[4.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer', 'pythonscriptspath')
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.ps1'
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.dsv'
+[4.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/hook/pythonscriptspath.sh'
+[4.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/package.ps1'
+[4.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/package.dsv'
+[4.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/package.sh'
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/package.bash'
+[4.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer/share/cartographer/package.zsh'
+[4.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer/share/colcon-core/packages/cartographer)
+[4.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros' with build type 'ament_cmake'
+[4.570s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros'
+[4.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.571s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_ros -- -j12 -l12
+[4.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_ros -- -j12 -l12
+[4.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_ros': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_ros
+[5.022s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[5.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_ros' returned '0': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_ros
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros' for CMake module files
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros' for CMake config files
+[5.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[5.024s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[5.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/bin'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[5.026s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/bin'
+[5.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[5.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[5.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[5.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[5.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[5.249s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_ros)
+[5.249s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros' for CMake module files
+[5.249s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros' for CMake config files
+[5.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_ros', 'cmake_prefix_path')
+[5.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.ps1'
+[5.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.dsv'
+[5.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/hook/cmake_prefix_path.sh'
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib'
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/bin'
+[5.251s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib/pkgconfig/cartographer_ros.pc'
+[5.252s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/lib/python3.10/site-packages'
+[5.252s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_ros/bin'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.ps1'
+[5.252s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.dsv'
+[5.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.sh'
+[5.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.bash'
+[5.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_ros/share/cartographer_ros/package.zsh'
+[5.254s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_ros/share/colcon-core/packages/cartographer_ros)
+[5.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_rviz' with build type 'ament_cmake'
+[5.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_rviz'
+[5.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_rviz -- -j12 -l12
+[5.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/cartographer_rviz -- -j12 -l12
+[5.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nagisa/fishbot_ws/build/cartographer_rviz': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_rviz
+[5.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[5.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nagisa/fishbot_ws/build/cartographer_rviz' returned '0': CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros:/home/nagisa/fishbot_ws/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/install/cartographer:/home/nagisa/fishbot_ws/install/fishbot_cartographer:/home/nagisa/fishbot_ws/install/cartographer_rviz:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/cartographer_ros_msgs/lib:/home/nagisa/fishbot_ws/install/cartographer_rviz/lib:/home/nagisa/fishbot_ws/install/cartographer_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/cartographer_rviz
+[5.546s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz' for CMake module files
+[5.546s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz' for CMake config files
+[5.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[5.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[5.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[5.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[5.548s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib'
+[5.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[5.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[5.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/bin'
+[5.549s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[5.550s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/bin'
+[5.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[5.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[5.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[5.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[5.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cartographer_rviz)
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz' for CMake module files
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz' for CMake config files
+[5.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'cmake_prefix_path')
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.ps1'
+[5.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.dsv'
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/cmake_prefix_path.sh'
+[5.619s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib'
+[5.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('cartographer_rviz', 'ld_library_path_lib')
+[5.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.ps1'
+[5.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.dsv'
+[5.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/hook/ld_library_path_lib.sh'
+[5.621s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/bin'
+[5.621s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib/pkgconfig/cartographer_rviz.pc'
+[5.621s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/lib/python3.10/site-packages'
+[5.621s] Level 1:colcon.colcon_core.environment:checking '/home/nagisa/fishbot_ws/install/cartographer_rviz/bin'
+[5.621s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.ps1'
+[5.622s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.dsv'
+[5.622s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.sh'
+[5.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.bash'
+[5.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/nagisa/fishbot_ws/install/cartographer_rviz/share/cartographer_rviz/package.zsh'
+[5.623s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nagisa/fishbot_ws/install/cartographer_rviz/share/colcon-core/packages/cartographer_rviz)
+[5.624s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.625s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.625s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.649s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.650s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.650s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.662s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.663s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagisa/fishbot_ws/install/local_setup.ps1'
+[5.664s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nagisa/fishbot_ws/install/_local_setup_util_ps1.py'
+[5.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagisa/fishbot_ws/install/setup.ps1'
+[5.666s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagisa/fishbot_ws/install/local_setup.sh'
+[5.667s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nagisa/fishbot_ws/install/_local_setup_util_sh.py'
+[5.667s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagisa/fishbot_ws/install/setup.sh'
+[5.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagisa/fishbot_ws/install/local_setup.bash'
+[5.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagisa/fishbot_ws/install/setup.bash'
+[5.670s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nagisa/fishbot_ws/install/local_setup.zsh'
+[5.670s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nagisa/fishbot_ws/install/setup.zsh'

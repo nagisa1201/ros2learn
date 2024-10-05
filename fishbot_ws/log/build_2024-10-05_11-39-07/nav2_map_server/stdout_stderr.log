@@ -1,0 +1,69 @@
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[  5%] Built target gtest_main
+[ 11%] Built target gtest
+[ 19%] Built target map_io
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_cli[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_io[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server_core[0m
+[ 27%] Built target test_map_saver_cli
+[ 36%] Built target test_map_io
+[ 44%] Built target test_map_saver_publisher
+[ 55%] Built target map_server_core
+[35m[1mConsolidate compiler generated dependencies of target test_costmap_filter_info_server[0m
+[35m[1mConsolidate compiler generated dependencies of target map_server[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_server_node[0m
+[35m[1mConsolidate compiler generated dependencies of target test_map_saver_node[0m
+[35m[1mConsolidate compiler generated dependencies of target map_saver_server[0m
+[35m[1mConsolidate compiler generated dependencies of target map_saver_cli[0m
+[35m[1mConsolidate compiler generated dependencies of target costmap_filter_info_server[0m
+[ 61%] Built target test_costmap_filter_info_server
+[ 66%] Built target map_server
+[ 72%] Built target map_saver_cli
+[ 80%] Built target test_map_server_node
+[ 86%] Built target map_saver_server
+[ 91%] Built target costmap_filter_info_server
+[100%] Built target test_map_saver_node
+-- Install configuration: "Release"
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_server_core.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_server_core.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_io.so
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/libmap_io.so" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_server
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+-- Set runtime path of "/home/nagisa/fishbot_ws/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include/
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.dsv
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+-- Installing: /home/nagisa/fishbot_ws/install/nav2_map_server/share/nav2_map_server/package.xml

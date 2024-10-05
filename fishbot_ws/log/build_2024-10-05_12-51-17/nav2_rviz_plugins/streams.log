@@ -1,0 +1,44 @@
+[0.022s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_rviz_plugins -- -j12 -l12
+[0.110s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[0.161s] [ 14%] Built target nav2_rviz_plugins_autogen
+[0.188s] [35m[1mConsolidate compiler generated dependencies of target nav2_rviz_plugins[0m
+[0.230s] [100%] Built target nav2_rviz_plugins
+[0.242s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_rviz_plugins -- -j12 -l12
+[0.306s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_rviz_plugins
+[0.317s] -- Install configuration: ""
+[0.319s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/plugins_description.xml
+[0.321s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[0.321s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include/
+[0.321s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins
+[0.321s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[0.322s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[0.323s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[0.323s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[0.323s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[0.324s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[0.325s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[0.325s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[0.326s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[0.329s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[0.330s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[0.331s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager:/home/nagisa/fishbot_ws/install/nav2_util:/home/nagisa/fishbot_ws/install/nav2_msgs:/home/nagisa/fishbot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/install/nav2_lifecycle_manager/lib:/home/nagisa/fishbot_ws/install/nav2_util/lib:/home/nagisa/fishbot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/nagisa/fishbot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_rviz_plugins

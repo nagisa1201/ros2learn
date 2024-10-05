@@ -1,0 +1,208 @@
+[0.048s] Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/src/install/cartographer_ros
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.307s] -- The CXX compiler identification is GNU 11.4.0
+[0.328s] -- Detecting C compiler ABI info
+[0.422s] -- Detecting C compiler ABI info - done
+[0.429s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.431s] -- Detecting C compile features
+[0.432s] -- Detecting C compile features - done
+[0.438s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.541s] -- Detecting CXX compile features
+[0.541s] -- Detecting CXX compile features - done
+[0.567s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.795s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.976s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[1.052s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.063s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.084s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.120s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.150s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.182s] -- Looking for pthread.h
+[1.285s] -- Looking for pthread.h - found
+[1.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.373s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.374s] -- Found Threads: TRUE  
+[1.389s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.398s] -- Found required Ceres dependency: glog
+[1.399s] -- Found required Ceres dependency: gflags
+[1.401s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.417s] -- Found cartographer_ros_msgs: 2.0.9003 (/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/share/cartographer_ros_msgs/cmake)
+[1.526s] -- Checking for module 'eigen3'
+[1.547s] --   Found eigen3, version 3.4.0
+[1.591s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.591s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.639s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.642s] -- looking for PCL_COMMON
+[1.643s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[1.643s] -- Found PCL: pcl_common;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization  
+[1.647s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.675s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.777s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.783s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.936s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.966s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.007s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.179s] -- Found rosbag2_cpp: 0.15.12 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.251s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.260s] -- Found tf2_eigen: 0.25.8 (/opt/ros/humble/share/tf2_eigen/cmake)
+[2.418s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[2.437s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.638s] -- Configuring done
+[2.976s] -- Generating done
+[2.978s] -- Build files have been written to: /home/nagisa/fishbot_ws/src/build/cartographer_ros
+[2.991s] Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/nagisa/fishbot_ws/src/cartographer_ros/cartographer_ros -DCMAKE_INSTALL_PREFIX=/home/nagisa/fishbot_ws/src/install/cartographer_ros
+[2.995s] Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/src/build/cartographer_ros -- -j12 -l12
+[3.087s] [  2%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/assets_writer.cpp.o[0m
+[3.087s] [  5%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/map_builder_bridge.cpp.o[0m
+[3.088s] [  8%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/msg_conversion.cpp.o[0m
+[3.090s] [ 11%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/playable_bag.cpp.o[0m
+[3.091s] [ 14%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map.cpp.o[0m
+[3.092s] [ 17%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/sensor_bridge.cpp.o[0m
+[3.093s] [ 20%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/offline_node.cpp.o[0m
+[3.094s] [ 22%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_constants.cpp.o[0m
+[3.095s] [ 25%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node_options.cpp.o[0m
+[3.097s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/node.cpp.o[0m
+[3.097s] [ 31%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_log_sink.cpp.o[0m
+[3.101s] [ 34%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/ros_map_writing_points_processor.cpp.o[0m
+[3.617s] [ 37%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/submap.cpp.o[0m
+[8.648s] [ 40%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/tf_bridge.cpp.o[0m
+[52.305s] [ 42%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/family_factory.cpp.o[0m
+[52.370s] [ 45%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/urdf_reader.cpp.o[0m
+[53.265s] [ 48%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/trajectory_options.cpp.o[0m
+[54.297s] [ 51%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/time_conversion.cpp.o[0m
+[55.831s] [ 54%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/family.cpp.o[0m
+[98.699s] [ 57%] [32mBuilding CXX object CMakeFiles/cartographer_ros.dir/src/metrics/internal/histogram.cpp.o[0m
+[133.306s] [ 60%] [32m[1mLinking CXX static library libcartographer_ros.a[0m
+[134.577s] [ 60%] Built target cartographer_ros
+[134.624s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_assets_writer.dir/src/assets_writer_main.cpp.o[0m
+[134.625s] [ 65%] [32mBuilding CXX object CMakeFiles/cartographer_offline_node.dir/src/offline_node_main.cpp.o[0m
+[134.626s] [ 68%] [32mBuilding CXX object CMakeFiles/cartographer_node.dir/src/node_main.cpp.o[0m
+[134.627s] [ 71%] [32mBuilding CXX object CMakeFiles/cartographer_occupancy_grid_node.dir/src/occupancy_grid_node_main.cpp.o[0m
+[134.627s] [ 74%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_map_publisher.dir/src/pbstream_map_publisher_main.cpp.o[0m
+[134.628s] [ 77%] [32mBuilding CXX object CMakeFiles/cartographer_rosbag_validate.dir/src/rosbag_validate_main.cpp.o[0m
+[134.630s] [ 80%] [32mBuilding CXX object CMakeFiles/cartographer_pbstream_to_ros_map.dir/src/pbstream_to_ros_map_main.cpp.o[0m
+[150.053s] [ 82%] [32m[1mLinking CXX executable cartographer_assets_writer[0m
+[152.216s] [ 82%] Built target cartographer_assets_writer
+[154.244s] [ 85%] [32m[1mLinking CXX executable cartographer_offline_node[0m
+[159.258s] [ 88%] [32m[1mLinking CXX executable cartographer_node[0m
+[159.306s] [ 91%] [32m[1mLinking CXX executable cartographer_pbstream_to_ros_map[0m
+[159.744s] [ 91%] Built target cartographer_offline_node
+[160.051s] [ 91%] Built target cartographer_pbstream_to_ros_map
+[163.207s] [ 91%] Built target cartographer_node
+[165.434s] [ 94%] [32m[1mLinking CXX executable cartographer_pbstream_map_publisher[0m
+[166.013s] [ 94%] Built target cartographer_pbstream_map_publisher
+[168.562s] [ 97%] [32m[1mLinking CXX executable cartographer_rosbag_validate[0m
+[169.027s] [ 97%] Built target cartographer_rosbag_validate
+[169.830s] [100%] [32m[1mLinking CXX executable cartographer_occupancy_grid_node[0m
+[170.802s] [100%] Built target cartographer_occupancy_grid_node
+[171.057s] Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/nagisa/fishbot_ws/src/build/cartographer_ros -- -j12 -l12
+[171.378s] Invoking command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/src/build/cartographer_ros
+[171.391s] -- Install configuration: ""
+[171.392s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/libcartographer_ros.a
+[171.488s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_node
+[171.508s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_node" to ""
+[171.508s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node
+[171.513s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_occupancy_grid_node" to ""
+[171.514s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node
+[171.536s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_offline_node" to ""
+[171.536s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer
+[171.540s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_assets_writer" to ""
+[171.540s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher
+[171.544s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_map_publisher" to ""
+[171.544s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map
+[171.545s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_pbstream_to_ros_map" to ""
+[171.545s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate
+[171.547s] -- Set runtime path of "/home/nagisa/fishbot_ws/src/install/cartographer_ros/lib/cartographer_ros/cartographer_rosbag_validate" to ""
+[171.547s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include/
+[171.549s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros
+[171.549s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics
+[171.550s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/family_factory.h
+[171.550s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/internal
+[171.551s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/internal/counter.h
+[171.551s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/internal/family.h
+[171.552s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/internal/histogram.h
+[171.552s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/metrics/internal/gauge.h
+[171.553s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/ros_map_writing_points_processor.h
+[171.553s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/urdf_reader.h
+[171.553s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/map_builder_bridge.h
+[171.554s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/msg_conversion.h
+[171.555s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/tf_bridge.h
+[171.555s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/ros_log_sink.h
+[171.556s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/assets_writer.h
+[171.556s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/offline_node.h
+[171.556s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/trajectory_options.h
+[171.557s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/playable_bag.h
+[171.557s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/node_constants.h
+[171.558s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/time_conversion.h
+[171.559s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/sensor_bridge.h
+[171.559s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/node.h
+[171.560s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/submap.h
+[171.560s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/node_options.h
+[171.561s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/include//cartographer_ros/ros_map.h
+[171.561s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files
+[171.562s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_server.lua
+[171.562s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization_evaluation.lua
+[171.563s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/taurob_tracker.lua
+[171.563s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_2d.rviz
+[171.564s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d.lua
+[171.564s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_3d.lua
+[171.565s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d.lua
+[171.565s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_ros_map.lua
+[171.566s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/transform.lua
+[171.566s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d_localization.lua
+[171.567s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/demo_3d.rviz
+[171.567s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/revo_lds.lua
+[171.568s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/assets_writer_backpack_2d_ci.lua
+[171.568s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/mir-100-mapping.lua
+[171.569s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_2d_localization.lua
+[171.569s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/pr2.lua
+[171.570s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/backpack_3d.lua
+[171.570s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//configuration_files/visualize_pbstream.lua
+[171.571s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//urdf
+[171.571s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/backpack_2d.urdf
+[171.572s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/backpack_3d.urdf
+[171.572s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//urdf/mir-100.urdf
+[171.572s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch
+[171.573s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/backpack_2d.launch.py
+[171.573s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_3d.launch.py
+[171.574s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d_localization.launch.py
+[171.574s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_3d.launch.py
+[171.574s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/backpack_3d.launch.py
+[171.575s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_backpack_2d.launch.py
+[171.575s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_2d.launch.py
+[171.576s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_taurob_tracker.launch.py
+[171.576s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/visualize_pbstream.launch.py
+[171.577s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_backpack_3d.launch.py
+[171.577s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/assets_writer_ros_map.launch.py
+[171.578s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/taurob_tracker.launch.py
+[171.578s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d_localization.launch.py
+[171.579s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_pr2.launch
+[171.579s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d_localization.launch
+[171.579s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/grpc_demo_backpack_2d.launch
+[171.580s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_node.launch.py
+[171.580s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_backpack_2d.launch.py
+[171.581s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/demo_revo_lds.launch.py
+[171.581s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros//launch/offline_mir_100_rviz.launch.py
+[171.584s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/library_path.sh
+[171.585s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/library_path.dsv
+[171.589s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/ament_index/resource_index/package_run_dependencies/cartographer_ros
+[171.591s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/ament_index/resource_index/parent_prefix_path/cartographer_ros
+[171.594s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.sh
+[171.595s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/ament_prefix_path.dsv
+[171.595s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.sh
+[171.596s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/environment/path.dsv
+[171.596s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.bash
+[171.597s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.sh
+[171.597s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.zsh
+[171.598s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/local_setup.dsv
+[171.598s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/package.dsv
+[171.599s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/ament_index/resource_index/packages/cartographer_ros
+[171.599s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[171.600s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[171.601s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[171.602s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig.cmake
+[171.603s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/cmake/cartographer_rosConfig-version.cmake
+[171.603s] -- Installing: /home/nagisa/fishbot_ws/src/install/cartographer_ros/share/cartographer_ros/package.xml
+[171.627s] Invoked command in '/home/nagisa/fishbot_ws/src/build/cartographer_ros' returned '0': AMENT_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs:/home/nagisa/fishbot_ws/src/install/cartographer:/opt/ros/humble LD_LIBRARY_PATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/nagisa/fishbot_ws/src/install/cartographer/bin:${PATH} PKG_CONFIG_PATH=/home/nagisa/fishbot_ws/src/install/cartographer/lib/x86_64-linux-gnu/pkgconfig:/home/nagisa/fishbot_ws/src/install/cartographer/lib/pkgconfig PYTHONPATH=/home/nagisa/fishbot_ws/src/install/cartographer_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/nagisa/fishbot_ws/src/build/cartographer_ros
