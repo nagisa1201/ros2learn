@@ -1,0 +1,48 @@
+[0.070s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/nav2_simple_commander:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_common -- -j12 -l12
+[0.256s] Built target ament_cmake_python_copy_nav2_common
+[0.556s] running egg_info
+[0.556s] writing nav2_common.egg-info/PKG-INFO
+[0.557s] writing dependency_links to nav2_common.egg-info/dependency_links.txt
+[0.557s] writing top-level names to nav2_common.egg-info/top_level.txt
+[0.563s] reading manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.564s] writing manifest file 'nav2_common.egg-info/SOURCES.txt'
+[0.608s] Built target ament_cmake_python_build_nav2_common_egg
+[0.626s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/nav2_simple_commander:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --build /home/nagisa/fishbot_ws/build/nav2_common -- -j12 -l12
+[0.691s] Invoking command in '/home/nagisa/fishbot_ws/build/nav2_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/nav2_simple_commander:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_common
+[0.705s] -- Install configuration: ""
+[0.705s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/pythonpath.sh
+[0.705s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/pythonpath.dsv
+[0.705s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info
+[0.705s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/dependency_links.txt
+[0.705s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/SOURCES.txt
+[0.705s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/top_level.txt
+[0.706s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common-1.1.16-py3.10.egg-info/PKG-INFO
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/__init__.py
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/__init__.py
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/rewritten_yaml.py
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/parse_multirobot_pose.py
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/replace_string.py
+[0.706s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch/has_node_params.py
+[0.750s] Listing '/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common'...
+[0.750s] Listing '/home/nagisa/fishbot_ws/install/nav2_common/local/lib/python3.10/dist-packages/nav2_common/launch'...
+[0.757s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/ament_index/resource_index/package_run_dependencies/nav2_common
+[0.757s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/ament_index/resource_index/parent_prefix_path/nav2_common
+[0.757s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.sh
+[0.757s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/ament_prefix_path.dsv
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/path.sh
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/environment/path.dsv
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.bash
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.sh
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.zsh
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/local_setup.dsv
+[0.758s] -- Installing: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/package.dsv
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/ament_index/resource_index/packages/nav2_common
+[0.758s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_common-extras.cmake
+[0.759s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig.cmake
+[0.759s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_commonConfig-version.cmake
+[0.759s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/package.xml
+[0.759s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake
+[0.759s] -- Up-to-date: /home/nagisa/fishbot_ws/install/nav2_common/share/nav2_common/cmake/nav2_package.cmake
+[0.767s] Invoked command in '/home/nagisa/fishbot_ws/build/nav2_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nagisa/fishbot_ws/install/nav2_simple_commander:/home/nagisa/fishbot_ws/install/fishbot_description:/opt/ros/humble /usr/bin/cmake --install /home/nagisa/fishbot_ws/build/nav2_common
